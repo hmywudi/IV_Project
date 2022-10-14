@@ -1,0 +1,1175 @@
+[
+ {
+   "Name": "The Block Arcade",
+   "categoryName": "Shopping mall",
+   "website": "http://www.theblock.com.au/",
+   "phone": "+61 3 9654 5244",
+   "address": "282 Collins St, Melbourne VIC 3000, Australia",
+   "city": "Melbourne",
+   "categories": [
+      "Shopping mall",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+   ],
+   "totalScore": [
+      4.5,
+      4.5
+   ],
+   "Monday Opening hours": "8am - 6pm",
+   "Tuesday Opening hours": "8am - 6pm",
+   "Wednesday Opening hours": "8am - 6pm",
+   "Thursday Opening hours": "8am - 6pm",
+   "Friday Opening hours": "8am - 8pm",
+   "Saturday Opening hours": "8am - 5pm",
+   "Sunday Opening hours": "8am - 5pm",
+   "cid": 13000000000000000000,
+   "countryCode": "AU",
+   "isAdvertisement": false,
+   "locatedIn": "",
+   "location": {
+      "lat": -37.815795,
+      "lng": 144.9646665
+   },
+   "menu": "",
+   "neighborhood": "282 Collins St",
+   "orderBy": [
+      {
+         "name": "",
+         "url": ""
+      }
+   ],
+   "permanentlyClosed": false,
+   "placeId": "ChIJZ13A-LRC1moRuvzp83qUTbQ",
+   "plusCode": "5XM7+MV Melbourne, Victoria, Australia",
+   "postalCode": 3000,
+   "price": "$$$$$",
+   "rank": 30,
+   "reviewsCount": 2598,
+   "reviewsDistribution": {
+      "fiveStar": 1546,
+      "fourStar": 802,
+      "oneStar": 16,
+      "threeStar": 214,
+      "twoStar": 20
+   },
+   "scrapedAt": "2022-10-08T14:00:55.586Z",
+   "searchPageUrl": "https://www.google.com/maps/search/shopping+mall+near+Melbourne+VIC/@-37.8231555,144.9459229,12z/data=!4m2!2m1!6e6?hl=en",
+   "searchString": "",
+   "state": "Victoria",
+   "street": "282 Collins St",
+   "subTitle": "",
+   "temporarilyClosed": false,
+   "url": "https://www.google.com/maps/place/The+Block+Arcade/@-37.815795,144.9646665,17z/data=!3m1!4b1!4m5!3m4!1s0x6ad642b4f8c05d67:0xb44d947af3e9fcba!8m2!3d-37.815795!4d144.9646665?hl=en"
+},
+ {
+   "Name": "Melbourne Central",
+   "categoryName": "Shopping mall",
+   "website": "http://www.melbournecentral.com.au/",
+   "phone": "+61 3 9922 1122",
+   "address": "Cnr LaTrobe and Swanston Streets, Melbourne VIC 3000, Australia",
+   "city": "Melbourne",
+   "categories": [
+      "Shopping mall",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+   ],
+   "totalScore": [
+      4.4,
+      4.4
+   ],
+   "Monday Opening hours": "10am - 7pm",
+   "Tuesday Opening hours": "10am - 7pm",
+   "Wednesday Opening hours": "10am - 7pm",
+   "Thursday Opening hours": "10am - 7pm",
+   "Friday Opening hours": "10am - 7pm",
+   "Saturday Opening hours": "10am - 9pm",
+   "Sunday Opening hours": "10am - 9pm",
+   "cid": 6430000000000000000,
+   "countryCode": "AU",
+   "isAdvertisement": false,
+   "locatedIn": "",
+   "location": {
+      "lat": -37.8102361,
+      "lng": 144.9627652
+   },
+   "menu": "",
+   "neighborhood": "Cnr LaTrobe and Swanston Streets",
+   "orderBy": [
+      {
+         "name": "",
+         "url": ""
+      }
+   ],
+   "permanentlyClosed": false,
+   "placeId": "ChIJybEw5cpC1moRFtDOajNMRFk",
+   "plusCode": "5XQ7+W4 Melbourne, Victoria, Australia",
+   "postalCode": 3000,
+   "price": "$$$",
+   "rank": 2,
+   "reviewsCount": 19795,
+   "reviewsDistribution": {
+      "fiveStar": 11066,
+      "fourStar": 6327,
+      "oneStar": 303,
+      "threeStar": 1820,
+      "twoStar": 279
+   },
+   "scrapedAt": "2022-10-08T14:00:16.951Z",
+   "searchPageUrl": "https://www.google.com/maps/search/shopping+mall+near+Melbourne+VIC/@-37.8231555,144.9459229,12z?hl=en",
+   "searchString": "",
+   "state": "VIC",
+   "street": "Cnr LaTrobe and Swanston Streets",
+   "subTitle": "",
+   "temporarilyClosed": false,
+   "url": "https://www.google.com/maps/place/Melbourne+Central/@-37.8102361,144.9627652,17z/data=!3m1!4b1!4m5!3m4!1s0x6ad642cae530b1c9:0x59444c336aced016!8m2!3d-37.8102361!4d144.9627652?hl=en"
+},
+ {
+   "Name": "Royal Arcade",
+   "categoryName": "Shopping mall",
+   "website": "http://www.royalarcade.com.au/",
+   "phone": "+61 438 891 212",
+   "address": "335 Bourke St, Melbourne VIC 3000, Australia",
+   "city": "Melbourne",
+   "categories": [
+      "Shopping mall",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+   ],
+   "totalScore": [
+      4.4,
+      4.4
+   ],
+   "Monday Opening hours": "7am - 7pm",
+   "Tuesday Opening hours": "7am - 7pm",
+   "Wednesday Opening hours": "7am - 7pm",
+   "Thursday Opening hours": "7am - 7pm",
+   "Friday Opening hours": "7am - 9pm",
+   "Saturday Opening hours": "8am - 7pm",
+   "Sunday Opening hours": "9am - 7pm",
+   "cid": 10600000000000000000,
+   "countryCode": "AU",
+   "isAdvertisement": false,
+   "locatedIn": "",
+   "location": {
+      "lat": -37.8145388,
+      "lng": 144.9640625
+   },
+   "menu": "",
+   "neighborhood": "335 Bourke St",
+   "orderBy": [
+      {
+         "name": "",
+         "url": ""
+      }
+   ],
+   "permanentlyClosed": false,
+   "placeId": "ChIJeaaLoLVC1moRb4lG29-HxpI",
+   "plusCode": "5XP7+5J Melbourne, Victoria, Australia",
+   "postalCode": 3000,
+   "price": "$$$",
+   "rank": 22,
+   "reviewsCount": 3800,
+   "reviewsDistribution": {
+      "fiveStar": 2030,
+      "fourStar": 1263,
+      "oneStar": 22,
+      "threeStar": 443,
+      "twoStar": 42
+   },
+   "scrapedAt": "2022-10-08T14:03:59.154Z",
+   "searchPageUrl": "https://www.google.com/maps/search/shopping+mall+near+Melbourne+VIC/@-37.8231555,144.9459229,12z/data=!4m2!2m1!6e6?hl=en",
+   "searchString": "",
+   "state": "Victoria",
+   "street": "335 Bourke St",
+   "subTitle": "",
+   "temporarilyClosed": false,
+   "url": "https://www.google.com/maps/place/Royal+Arcade/@-37.8145388,144.9640625,17z/data=!3m1!4b1!4m5!3m4!1s0x6ad642b5a08ba679:0x92c687dfdb46896f!8m2!3d-37.8145388!4d144.9640625?hl=en"
+},
+ {
+   "Name": "Emporium Melbourne",
+   "categoryName": "Shopping mall",
+   "website": "http://emporiummelbourne.com.au/",
+   "phone": "+61 3 8609 8221",
+   "address": "287 Lonsdale St, Melbourne VIC 3000, Australia",
+   "city": "Melbourne",
+   "categories": [
+      "Shopping mall",
+      "Fashion designer",
+      "Fast food restaurant",
+      "Food court",
+      "Restaurant",
+      "",
+      "",
+      "",
+      "",
+      ""
+   ],
+   "totalScore": [
+      4.4,
+      4.4
+   ],
+   "Monday Opening hours": "10am - 7pm",
+   "Tuesday Opening hours": "10am - 7pm",
+   "Wednesday Opening hours": "10am - 7pm",
+   "Thursday Opening hours": "10am - 7pm",
+   "Friday Opening hours": "10am - 9pm",
+   "Saturday Opening hours": "10am - 10pm",
+   "Sunday Opening hours": "10am - 7pm",
+   "cid": 2550000000000000000,
+   "countryCode": "AU",
+   "isAdvertisement": false,
+   "locatedIn": "",
+   "location": {
+      "lat": -37.8124234,
+      "lng": 144.9638295
+   },
+   "menu": "",
+   "neighborhood": "287 Lonsdale St",
+   "orderBy": [
+      {
+         "name": "",
+         "url": ""
+      }
+   ],
+   "permanentlyClosed": false,
+   "placeId": "ChIJe2e9iMpC1moROAFy3XgYaSM",
+   "plusCode": "5XQ7+2G Melbourne, Victoria, Australia",
+   "postalCode": 3000,
+   "price": "$$$$$$",
+   "rank": 4,
+   "reviewsCount": 14215,
+   "reviewsDistribution": {
+      "fiveStar": 7706,
+      "fourStar": 4811,
+      "oneStar": 166,
+      "threeStar": 1347,
+      "twoStar": 185
+   },
+   "scrapedAt": "2022-10-08T14:04:18.689Z",
+   "searchPageUrl": "https://www.google.com/maps/search/shopping+mall+near+Melbourne+VIC/@-37.8231555,144.9459229,12z?hl=en",
+   "searchString": "",
+   "state": "Victoria",
+   "street": "287 Lonsdale St",
+   "subTitle": "",
+   "temporarilyClosed": false,
+   "url": "https://www.google.com/maps/place/Emporium+Melbourne/@-37.8124234,144.9638295,17z/data=!3m1!4b1!4m5!3m4!1s0x6ad642ca88bd677b:0x23691878dd720138!8m2!3d-37.8124234!4d144.9638295?hl=en"
+},
+ {
+   "Name": "Bourke Street Mall",
+   "categoryName": "Shopping mall",
+   "website": "https://www.visitvictoria.com/regions/melbourne/destinations/bourke-street-mall",
+   "phone": "",
+   "address": "Bourke St, Melbourne VIC 3000, Australia",
+   "city": "Melbourne",
+   "categories": [
+      "Outlet mall",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+   ],
+   "totalScore": [
+      4.3,
+      4.3
+   ],
+   "Monday Opening hours": "10am - 7pm",
+   "Tuesday Opening hours": "10am - 7pm",
+   "Wednesday Opening hours": "10am - 7pm",
+   "Thursday Opening hours": "10am - 9pm",
+   "Friday Opening hours": "10am - 9pm",
+   "Saturday Opening hours": "9:30am - 7pm",
+   "Sunday Opening hours": "10am - 7pm",
+   "cid": 1890000000000000000,
+   "countryCode": "AU",
+   "isAdvertisement": false,
+   "locatedIn": "Floor G · David Jones - Bourke Street Mall",
+   "location": {
+      "lat": -37.8137685,
+      "lng": 144.9644379
+   },
+   "menu": "",
+   "neighborhood": "Bourke St",
+   "orderBy": [
+      {
+         "name": "",
+         "url": ""
+      }
+   ],
+   "permanentlyClosed": false,
+   "placeId": "ChIJ54vBhLVC1moRmVsGnRiuOxo",
+   "plusCode": "5XP7+FQ Melbourne, Victoria, Australia",
+   "postalCode": null,
+   "price": "$$$$",
+   "rank": 1,
+   "reviewsCount": 5042,
+   "reviewsDistribution": {
+      "fiveStar": 2641,
+      "fourStar": 1667,
+      "oneStar": 68,
+      "threeStar": 585,
+      "twoStar": 81
+   },
+   "scrapedAt": "2022-10-08T14:00:16.586Z",
+   "searchPageUrl": "https://www.google.com/maps/search/shopping+mall+near+Melbourne+VIC/@-37.8231555,144.9459229,12z?hl=en",
+   "searchString": "",
+   "state": "Victoria",
+   "street": "Bourke St",
+   "subTitle": "",
+   "temporarilyClosed": false,
+   "url": "https://www.google.com/maps/place/Bourke+Street+Mall/@-37.8137685,144.9644379,17z/data=!3m1!4b1!4m5!3m4!1s0x6ad642b584c18be7:0x1a3bae189d065b99!8m2!3d-37.8137685!4d144.9644379?hl=en"
+},
+ {
+   "Name": "Melbourne's GPO",
+   "categoryName": "Shopping mall",
+   "website": "http://www.melbournesgpo.com/",
+   "phone": "+61 3 9290 0200",
+   "address": "350 Bourke St, Melbourne VIC 3000, Australia",
+   "city": "Melbourne",
+   "categories": [
+      "Shopping mall",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+   ],
+   "totalScore": [
+      4.3,
+      4.3
+   ],
+   "Monday Opening hours": "10am - 7pm",
+   "Tuesday Opening hours": "10am - 7pm",
+   "Wednesday Opening hours": "10am - 7pm",
+   "Thursday Opening hours": "10am - 7pm",
+   "Friday Opening hours": "10am - 7pm",
+   "Saturday Opening hours": "10am - 9pm",
+   "Sunday Opening hours": "10am - 9pm",
+   "cid": 16500000000000000000,
+   "countryCode": "AU",
+   "isAdvertisement": false,
+   "locatedIn": "",
+   "location": {
+      "lat": -37.8135391,
+      "lng": 144.9632758
+   },
+   "menu": "",
+   "neighborhood": "350 Bourke St",
+   "orderBy": [
+      {
+         "name": "",
+         "url": ""
+      }
+   ],
+   "permanentlyClosed": false,
+   "placeId": "ChIJlVWPC7VC1moRwANVqtx_3eQ",
+   "plusCode": "5XP7+H8 Melbourne, Victoria, Australia",
+   "postalCode": 3000,
+   "price": "$$$$$",
+   "rank": 18,
+   "reviewsCount": 2316,
+   "reviewsDistribution": {
+      "fiveStar": 1112,
+      "fourStar": 815,
+      "oneStar": 32,
+      "threeStar": 313,
+      "twoStar": 44
+   },
+   "scrapedAt": "2022-10-08T14:00:26.174Z",
+   "searchPageUrl": "https://www.google.com/maps/search/shopping+mall+near+Melbourne+VIC/@-37.8231555,144.9459229,12z?hl=en",
+   "searchString": "",
+   "state": "Victoria",
+   "street": "350 Bourke St",
+   "subTitle": "",
+   "temporarilyClosed": false,
+   "url": "https://www.google.com/maps/place/Melbourne's+GPO/@-37.8135391,144.9632758,17z/data=!3m1!4b1!4m5!3m4!1s0x6ad642b50b8f5595:0xe4dd7fdcaa5503c0!8m2!3d-37.8135391!4d144.9632758?hl=en"
+},
+ {
+   "Name": "QV Melbourne",
+   "categoryName": "Shopping mall",
+   "website": "http://www.qv.com.au/",
+   "phone": "+61 3 9207 9200",
+   "address": "Cnr Lonsdale Street and, Swanston St, Melbourne VIC 3000, Australia",
+   "city": "Melbourne",
+   "categories": [
+      "Shopping mall",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+   ],
+   "totalScore": [
+      4.3,
+      4.3
+   ],
+   "Monday Opening hours": "10am - 7pm",
+   "Tuesday Opening hours": "10am - 7pm",
+   "Wednesday Opening hours": "10am - 7pm",
+   "Thursday Opening hours": "10am - 7pm",
+   "Friday Opening hours": "10am - 9pm",
+   "Saturday Opening hours": "10am - 6pm",
+   "Sunday Opening hours": "10am - 5pm",
+   "cid": 971000000000000000,
+   "countryCode": "AU",
+   "isAdvertisement": false,
+   "locatedIn": "",
+   "location": {
+      "lat": -37.810632,
+      "lng": 144.9656403
+   },
+   "menu": "",
+   "neighborhood": "Cnr Lonsdale Street and, Swanston St",
+   "orderBy": [
+      {
+         "name": "",
+         "url": ""
+      }
+   ],
+   "permanentlyClosed": false,
+   "placeId": "ChIJJzQtz8tC1moR72Ai_C59eg0",
+   "plusCode": "5XQ8+P7 Melbourne, Victoria, Australia",
+   "postalCode": 3000,
+   "price": "$$$$$$",
+   "rank": 10,
+   "reviewsCount": 9660,
+   "reviewsDistribution": {
+      "fiveStar": 4735,
+      "fourStar": 3475,
+      "oneStar": 129,
+      "threeStar": 1170,
+      "twoStar": 151
+   },
+   "scrapedAt": "2022-10-08T14:04:08.500Z",
+   "searchPageUrl": "https://www.google.com/maps/search/shopping+mall+near+Melbourne+VIC/@-37.8231555,144.9459229,12z?hl=en",
+   "searchString": "",
+   "state": "VIC",
+   "street": "Cnr Lonsdale Street and, Swanston St",
+   "subTitle": "",
+   "temporarilyClosed": false,
+   "url": "https://www.google.com/maps/place/QV+Melbourne/@-37.810632,144.9656403,17z/data=!3m1!4b1!4m5!3m4!1s0x6ad642cbcf2d3427:0xd7a7d2efc2260ef!8m2!3d-37.810632!4d144.9656403?hl=en"
+},
+ {
+   "Name": "Midtown Melbourne",
+   "categoryName": "Shopping mall",
+   "website": "",
+   "phone": "+61 3 9290 0200",
+   "address": "246 Bourke St, Melbourne VIC 3000, Australia",
+   "city": "Melbourne",
+   "categories": [
+      "Shopping mall",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+   ],
+   "totalScore": [
+      4.2,
+      4.2
+   ],
+   "Monday Opening hours": "7am - 9pm",
+   "Tuesday Opening hours": "7am - 9pm",
+   "Wednesday Opening hours": "7am - 9pm",
+   "Thursday Opening hours": "7am - 9pm",
+   "Friday Opening hours": "7am - 9pm",
+   "Saturday Opening hours": "8am - 9pm",
+   "Sunday Opening hours": "9am - 7pm",
+   "cid": 9700000000000000000,
+   "countryCode": "AU",
+   "isAdvertisement": false,
+   "locatedIn": "",
+   "location": {
+      "lat": -37.8130765,
+      "lng": 144.9658905
+   },
+   "menu": "",
+   "neighborhood": "246 Bourke St",
+   "orderBy": [
+      {
+         "name": "",
+         "url": ""
+      }
+   ],
+   "permanentlyClosed": false,
+   "placeId": "ChIJ1xdPD8pC1moRK16t7ojQk4Y",
+   "plusCode": "5XP8+Q9 Melbourne, Victoria, Australia",
+   "postalCode": 3000,
+   "price": "",
+   "rank": 16,
+   "reviewsCount": 525,
+   "reviewsDistribution": {
+      "fiveStar": 227,
+      "fourStar": 190,
+      "oneStar": 10,
+      "threeStar": 84,
+      "twoStar": 14
+   },
+   "scrapedAt": "2022-10-08T14:00:32.852Z",
+   "searchPageUrl": "https://www.google.com/maps/search/shopping+mall+near+Melbourne+VIC/@-37.8231555,144.9459229,12z?hl=en",
+   "searchString": "",
+   "state": "Victoria",
+   "street": "246 Bourke St",
+   "subTitle": "",
+   "temporarilyClosed": false,
+   "url": "https://www.google.com/maps/place/Midtown+Melbourne/@-37.8130765,144.9658905,17z/data=!3m1!4b1!4m5!3m4!1s0x6ad642ca0f4f17d7:0x8693d088eead5e2b!8m2!3d-37.8130765!4d144.9658905?hl=en"
+},
+ {
+   "Name": "Collins234",
+   "categoryName": "Shopping mall",
+   "website": "http://collins234.com.au/",
+   "phone": "+61 3 8539 3001",
+   "address": "234 Collins St, Melbourne VIC 3000, Australia",
+   "city": "Melbourne",
+   "categories": [
+      "Shopping mall",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+   ],
+   "totalScore": [
+      4.2,
+      4.2
+   ],
+   "Monday Opening hours": "10am - 6pm",
+   "Tuesday Opening hours": "10am - 6pm",
+   "Wednesday Opening hours": "10am - 6pm",
+   "Thursday Opening hours": "10am - 7pm",
+   "Friday Opening hours": "10am - 9pm",
+   "Saturday Opening hours": "10am - 5pm",
+   "Sunday Opening hours": "12pm - 5pm",
+   "cid": 14500000000000000000,
+   "countryCode": "AU",
+   "isAdvertisement": false,
+   "locatedIn": "",
+   "location": {
+      "lat": -37.8154695,
+      "lng": 144.9659663
+   },
+   "menu": "",
+   "neighborhood": "234 Collins St",
+   "orderBy": [
+      {
+         "name": "",
+         "url": ""
+      }
+   ],
+   "permanentlyClosed": false,
+   "placeId": "ChIJswyfzrVC1moRjvkdZyLny8k",
+   "plusCode": "5XM8+R9 Melbourne, Victoria, Australia",
+   "postalCode": 3000,
+   "price": "",
+   "rank": 37,
+   "reviewsCount": 245,
+   "reviewsDistribution": {
+      "fiveStar": 112,
+      "fourStar": 86,
+      "oneStar": 3,
+      "threeStar": 40,
+      "twoStar": 4
+   },
+   "scrapedAt": "2022-10-08T14:00:43.684Z",
+   "searchPageUrl": "https://www.google.com/maps/search/shopping+mall+near+Melbourne+VIC/@-37.8231555,144.9459229,12z/data=!4m2!2m1!6e6?hl=en",
+   "searchString": "",
+   "state": "Victoria",
+   "street": "234 Collins St",
+   "subTitle": "",
+   "temporarilyClosed": false,
+   "url": "https://www.google.com/maps/place/Collins234/@-37.8154695,144.9659663,17z/data=!3m1!4b1!4m5!3m4!1s0x6ad642b5ce9f0cb3:0xc9cbe722671df98e!8m2!3d-37.8154695!4d144.9659663?hl=en"
+},
+ {
+   "Name": "Collins Place",
+   "categoryName": "Shopping mall",
+   "website": "https://www.collinsplace.com.au/",
+   "phone": "+61 3 9655 3600",
+   "address": "45 Collins St, Melbourne VIC 3000, Australia",
+   "city": "Melbourne",
+   "categories": [
+      "Shopping mall",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+   ],
+   "totalScore": [
+      4.2,
+      4.2
+   ],
+   "Monday Opening hours": "9am - 7pm",
+   "Tuesday Opening hours": "9am - 7pm",
+   "Wednesday Opening hours": "9am - 7pm",
+   "Thursday Opening hours": "8am - 9pm",
+   "Friday Opening hours": "8am - 9pm",
+   "Saturday Opening hours": "10am - 7pm",
+   "Sunday Opening hours": "10am - 7pm",
+   "cid": 8260000000000000000,
+   "countryCode": "AU",
+   "isAdvertisement": false,
+   "locatedIn": "",
+   "location": {
+      "lat": -37.8144674,
+      "lng": 144.9733256
+   },
+   "menu": "",
+   "neighborhood": "45 Collins St",
+   "orderBy": [
+      {
+         "name": "",
+         "url": ""
+      }
+   ],
+   "permanentlyClosed": false,
+   "placeId": "ChIJAVfi1sdC1moRAnN2DgG2qXI",
+   "plusCode": "5XPF+68 Melbourne, Victoria, Australia",
+   "postalCode": 3000,
+   "price": "$$",
+   "rank": 24,
+   "reviewsCount": 3013,
+   "reviewsDistribution": {
+      "fiveStar": 1278,
+      "fourStar": 1110,
+      "oneStar": 44,
+      "threeStar": 521,
+      "twoStar": 60
+   },
+   "scrapedAt": "2022-10-08T14:03:56.486Z",
+   "searchPageUrl": "https://www.google.com/maps/search/shopping+mall+near+Melbourne+VIC/@-37.8231555,144.9459229,12z/data=!4m2!2m1!6e6?hl=en",
+   "searchString": "",
+   "state": "Victoria",
+   "street": "45 Collins St",
+   "subTitle": "",
+   "temporarilyClosed": false,
+   "url": "https://www.google.com/maps/place/Collins+Place/@-37.8144674,144.9733256,17z/data=!3m1!4b1!4m5!3m4!1s0x6ad642c7d6e25701:0x72a9b6010e767302!8m2!3d-37.8144674!4d144.9733256?hl=en"
+},
+ {
+   "Name": "The Strand Melbourne",
+   "categoryName": "Shopping mall",
+   "website": "http://www.thestrandmelbourne.com/",
+   "phone": "+61 3 9290 0200",
+   "address": "250 Elizabeth St, Melbourne VIC 3000, Australia",
+   "city": "Melbourne",
+   "categories": [
+      "Shopping mall",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+   ],
+   "totalScore": [
+      4.2,
+      4.2
+   ],
+   "Monday Opening hours": "10am - 7pm",
+   "Tuesday Opening hours": "10am - 7pm",
+   "Wednesday Opening hours": "10am - 7pm",
+   "Thursday Opening hours": "10am - 9pm",
+   "Friday Opening hours": "10am - 9pm",
+   "Saturday Opening hours": "10am - 7pm",
+   "Sunday Opening hours": "10am - 7pm",
+   "cid": 11900000000000000000,
+   "countryCode": "AU",
+   "isAdvertisement": false,
+   "locatedIn": "",
+   "location": {
+      "lat": -37.8127823,
+      "lng": 144.9627044
+   },
+   "menu": "",
+   "neighborhood": "250 Elizabeth St",
+   "orderBy": [
+      {
+         "name": "",
+         "url": ""
+      }
+   ],
+   "permanentlyClosed": false,
+   "placeId": "ChIJH_0fYbVC1moR4QvBomAPj6U",
+   "plusCode": "5XP7+V3 Melbourne, Victoria, Australia",
+   "postalCode": 3000,
+   "price": "$$",
+   "rank": 6,
+   "reviewsCount": 504,
+   "reviewsDistribution": {
+      "fiveStar": 232,
+      "fourStar": 181,
+      "oneStar": 4,
+      "threeStar": 73,
+      "twoStar": 14
+   },
+   "scrapedAt": "2022-10-08T14:04:19.595Z",
+   "searchPageUrl": "https://www.google.com/maps/search/shopping+mall+near+Melbourne+VIC/@-37.8231555,144.9459229,12z?hl=en",
+   "searchString": "",
+   "state": "Victoria",
+   "street": "250 Elizabeth St",
+   "subTitle": "",
+   "temporarilyClosed": false,
+   "url": "https://www.google.com/maps/place/The+Strand+Melbourne/@-37.8127823,144.9627044,17z/data=!3m1!4b1!4m5!3m4!1s0x6ad642b5611ffd1f:0xa58f0f60a2c10be1!8m2!3d-37.8127823!4d144.9627044?hl=en"
+},
+ {
+   "Name": "Southgate",
+   "categoryName": "Shopping mall",
+   "website": "http://www.southgatemelbourne.com.au/",
+   "phone": "+61 3 9960 8100",
+   "address": "3 Southgate Ave, Southbank VIC 3006, Australia",
+   "city": "Southbank",
+   "categories": [
+      "Shopping mall",
+      "Art gallery",
+      "Bar",
+      "Food court",
+      "Restaurant",
+      "",
+      "",
+      "",
+      "",
+      ""
+   ],
+   "totalScore": [
+      4.2,
+      4.2
+   ],
+   "Monday Opening hours": "10am - 7pm",
+   "Tuesday Opening hours": "10am - 7pm",
+   "Wednesday Opening hours": "10am - 7pm",
+   "Thursday Opening hours": "10am - 7pm",
+   "Friday Opening hours": "10am - 8pm",
+   "Saturday Opening hours": "10am - 11pm",
+   "Sunday Opening hours": "10am - 6pm",
+   "cid": 2660000000000000000,
+   "countryCode": "AU",
+   "isAdvertisement": false,
+   "locatedIn": "",
+   "location": {
+      "lat": -37.8203389,
+      "lng": 144.9660726
+   },
+   "menu": "",
+   "neighborhood": "3 Southgate Ave",
+   "orderBy": [
+      {
+         "name": "",
+         "url": ""
+      }
+   ],
+   "permanentlyClosed": false,
+   "placeId": "ChIJreaFNbJC1moRsVLa8Nh49SQ",
+   "plusCode": "5XH8+VC Southbank, Victoria, Australia",
+   "postalCode": 3006,
+   "price": "$$$$$$",
+   "rank": 35,
+   "reviewsCount": 3678,
+   "reviewsDistribution": {
+      "fiveStar": 1654,
+      "fourStar": 1293,
+      "oneStar": 57,
+      "threeStar": 577,
+      "twoStar": 97
+   },
+   "scrapedAt": "2022-10-08T14:00:46.598Z",
+   "searchPageUrl": "https://www.google.com/maps/search/shopping+mall+near+Melbourne+VIC/@-37.8231555,144.9459229,12z/data=!4m2!2m1!6e6?hl=en",
+   "searchString": "",
+   "state": "Victoria",
+   "street": "3 Southgate Ave",
+   "subTitle": "",
+   "temporarilyClosed": false,
+   "url": "https://www.google.com/maps/place/Southgate/@-37.8203389,144.9660726,17z/data=!3m1!4b1!4m5!3m4!1s0x6ad642b23585e6ad:0x24f578d8f0da52b1!8m2!3d-37.8203389!4d144.9660726?hl=en"
+},
+ {
+   "Name": "The District Docklands",
+   "categoryName": "Shopping mall",
+   "website": "https://www.thedistrictdocklands.com.au/",
+   "phone": "+61 3 9328 8600",
+   "address": "440 Docklands Dr, Docklands VIC 3008, Australia",
+   "city": "Docklands",
+   "categories": [
+      "Shopping mall",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+   ],
+   "totalScore": [
+      4.1,
+      4.1
+   ],
+   "Monday Opening hours": "Open 24 hours",
+   "Tuesday Opening hours": "Open 24 hours",
+   "Wednesday Opening hours": "Open 24 hours",
+   "Thursday Opening hours": "Open 24 hours",
+   "Friday Opening hours": "Open 24 hours",
+   "Saturday Opening hours": "Open 24 hours",
+   "Sunday Opening hours": "Open 24 hours",
+   "cid": 1640000000000000000,
+   "countryCode": "AU",
+   "isAdvertisement": false,
+   "locatedIn": "",
+   "location": {
+      "lat": -37.8125536,
+      "lng": 144.9369982
+   },
+   "menu": "",
+   "neighborhood": "440 Docklands Dr",
+   "orderBy": [
+      {
+         "name": "",
+         "url": ""
+      }
+   ],
+   "permanentlyClosed": false,
+   "placeId": "ChIJ6VdIDGhd1moRm1HpD5FMuBY",
+   "plusCode": "5WPP+XQ Docklands, Victoria, Australia",
+   "postalCode": 3008,
+   "price": "$$",
+   "rank": 20,
+   "reviewsCount": 8383,
+   "reviewsDistribution": {
+      "fiveStar": 3805,
+      "fourStar": 2659,
+      "oneStar": 211,
+      "threeStar": 1336,
+      "twoStar": 372
+   },
+   "scrapedAt": "2022-10-08T14:00:24.391Z",
+   "searchPageUrl": "https://www.google.com/maps/search/shopping+mall+near+Melbourne+VIC/@-37.8231555,144.9459229,12z?hl=en",
+   "searchString": "",
+   "state": "Victoria",
+   "street": "440 Docklands Dr",
+   "subTitle": "",
+   "temporarilyClosed": false,
+   "url": "https://www.google.com/maps/place/The+District+Docklands/@-37.8125536,144.9369982,17z/data=!3m1!4b1!4m5!3m4!1s0x6ad65d680c4857e9:0x16b84c910fe9519b!8m2!3d-37.8125536!4d144.9369982?hl=en"
+},
+ {
+   "Name": "Spencer Outlet Centre",
+   "categoryName": "Shopping mall",
+   "website": "http://www.spenceroutletcentre.com.au/",
+   "phone": "+61 3 8689 7577",
+   "address": "201 Spencer St, Docklands VIC 3008, Australia",
+   "city": "Docklands",
+   "categories": [
+      "Shopping mall",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+   ],
+   "totalScore": [
+      4.1,
+      4.1
+   ],
+   "Monday Opening hours": "10am - 6pm",
+   "Tuesday Opening hours": "10am - 6pm",
+   "Wednesday Opening hours": "10am - 6pm",
+   "Thursday Opening hours": "10am - 6pm",
+   "Friday Opening hours": "10am - 6pm",
+   "Saturday Opening hours": "10am - 7pm",
+   "Sunday Opening hours": "10am - 7pm",
+   "cid": 17700000000000000000,
+   "countryCode": "AU",
+   "isAdvertisement": false,
+   "locatedIn": "",
+   "location": {
+      "lat": -37.8163889,
+      "lng": 144.9525
+   },
+   "menu": "",
+   "neighborhood": "201 Spencer St",
+   "orderBy": [
+      {
+         "name": "",
+         "url": ""
+      }
+   ],
+   "permanentlyClosed": false,
+   "placeId": "ChIJHyAtFk9d1moRAqBQ86vRKPU",
+   "plusCode": "5XM2+CX Docklands, Victoria, Australia",
+   "postalCode": 3008,
+   "price": "$$$$$",
+   "rank": 21,
+   "reviewsCount": 6884,
+   "reviewsDistribution": {
+      "fiveStar": 2858,
+      "fourStar": 2420,
+      "oneStar": 130,
+      "threeStar": 1262,
+      "twoStar": 214
+   },
+   "scrapedAt": "2022-10-08T14:04:01.293Z",
+   "searchPageUrl": "https://www.google.com/maps/search/shopping+mall+near+Melbourne+VIC/@-37.8231555,144.9459229,12z/data=!4m2!2m1!6e6?hl=en",
+   "searchString": "",
+   "state": "Victoria",
+   "street": "201 Spencer St",
+   "subTitle": "",
+   "temporarilyClosed": false,
+   "url": "https://www.google.com/maps/place/Spencer+Outlet+Centre/@-37.8163889,144.9525,17z/data=!3m1!4b1!4m5!3m4!1s0x6ad65d4f162d201f:0xf528d1abf350a002!8m2!3d-37.8163889!4d144.9525?hl=en"
+},
+ {
+   "Name": "Midcity Centre",
+   "categoryName": "Shopping mall",
+   "website": "https://www.midcitycentre.com.au/",
+   "phone": "+61 3 9275 7777",
+   "address": "200 Bourke St, Melbourne VIC 3000, Australia",
+   "city": "Melbourne",
+   "categories": [
+      "Shopping mall",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+   ],
+   "totalScore": [
+      4.1,
+      4.1
+   ],
+   "Monday Opening hours": "11am - 10pm",
+   "Tuesday Opening hours": "11am - 10pm",
+   "Wednesday Opening hours": "11am - 10pm",
+   "Thursday Opening hours": "11am - 10pm",
+   "Friday Opening hours": "11am - 10pm",
+   "Saturday Opening hours": "11am - 10pm",
+   "Sunday Opening hours": "11am - 10pm",
+   "cid": 13900000000000000000,
+   "countryCode": "AU",
+   "isAdvertisement": false,
+   "locatedIn": "",
+   "location": {
+      "lat": -37.8128004,
+      "lng": 144.9674292
+   },
+   "menu": "",
+   "neighborhood": "200 Bourke St",
+   "orderBy": [
+      {
+         "name": "",
+         "url": ""
+      }
+   ],
+   "permanentlyClosed": false,
+   "placeId": "ChIJj1Iuy7FD1moRqP5dIrxPmsA",
+   "plusCode": "5XP8+VX Melbourne, Victoria, Australia",
+   "postalCode": 3000,
+   "price": "$$$$$",
+   "rank": 19,
+   "reviewsCount": 218,
+   "reviewsDistribution": {
+      "fiveStar": 93,
+      "fourStar": 65,
+      "oneStar": 3,
+      "threeStar": 45,
+      "twoStar": 12
+   },
+   "scrapedAt": "2022-10-08T14:00:25.301Z",
+   "searchPageUrl": "https://www.google.com/maps/search/shopping+mall+near+Melbourne+VIC/@-37.8231555,144.9459229,12z?hl=en",
+   "searchString": "",
+   "state": "Victoria",
+   "street": "200 Bourke St",
+   "subTitle": "",
+   "temporarilyClosed": false,
+   "url": "https://www.google.com/maps/place/Midcity+Centre/@-37.8128004,144.9674292,17z/data=!3m1!4b1!4m5!3m4!1s0x6ad643b1cb2e528f:0xc09a4fbc225dfea8!8m2!3d-37.8128004!4d144.9674292?hl=en"
+},
+ {
+   "Name": "St. Collins Lane",
+   "categoryName": "Shopping mall",
+   "website": "https://stcollinslane.com.au/?utm_source=google&utm_medium=directory-organic&utm_campaign=my-business-profile",
+   "phone": "",
+   "address": "260 Collins St, Melbourne VIC 3000, Australia",
+   "city": "Melbourne",
+   "categories": [
+      "Shopping mall",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+   ],
+   "totalScore": [
+      4.1,
+      4.1
+   ],
+   "Monday Opening hours": "10am - 6pm",
+   "Tuesday Opening hours": "10am - 6pm",
+   "Wednesday Opening hours": "10am - 6pm",
+   "Thursday Opening hours": "10am - 7pm",
+   "Friday Opening hours": "10am - 7pm",
+   "Saturday Opening hours": "10am - 6pm",
+   "Sunday Opening hours": "10am - 5pm",
+   "cid": 15200000000000000000,
+   "countryCode": "AU",
+   "isAdvertisement": false,
+   "locatedIn": "",
+   "location": {
+      "lat": -37.8156628,
+      "lng": 144.9649979
+   },
+   "menu": "",
+   "neighborhood": "260 Collins St",
+   "orderBy": [
+      {
+         "name": "",
+         "url": ""
+      }
+   ],
+   "permanentlyClosed": false,
+   "placeId": "ChIJSUdkS7RC1moRbCp-NKcPX9I",
+   "plusCode": "5XM7+PX Melbourne, Victoria, Australia",
+   "postalCode": 3000,
+   "price": "$$$",
+   "rank": 15,
+   "reviewsCount": 556,
+   "reviewsDistribution": {
+      "fiveStar": 249,
+      "fourStar": 191,
+      "oneStar": 19,
+      "threeStar": 77,
+      "twoStar": 20
+   },
+   "scrapedAt": "2022-10-08T14:00:35.886Z",
+   "searchPageUrl": "https://www.google.com/maps/search/shopping+mall+near+Melbourne+VIC/@-37.8231555,144.9459229,12z?hl=en",
+   "searchString": "",
+   "state": "Victoria",
+   "street": "260 Collins St",
+   "subTitle": "",
+   "temporarilyClosed": false,
+   "url": "https://www.google.com/maps/place/St.+Collins+Lane/@-37.8156628,144.9649979,17z/data=!3m1!4b1!4m5!3m4!1s0x6ad642b44b644749:0xd25f0fa7347e2a6c!8m2!3d-37.8156628!4d144.9649979?hl=en"
+},
+ {
+   "Name": "Centreway Arcade",
+   "categoryName": "Shopping mall",
+   "website": "",
+   "phone": "",
+   "address": "Collins St, Melbourne VIC 3000, Australia",
+   "city": "Melbourne",
+   "categories": [
+      "Shopping mall",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+   ],
+   "totalScore": [
+      4.1,
+      4.1
+   ],
+   "Monday Opening hours": "10am - 6pm",
+   "Tuesday Opening hours": "10am - 6pm",
+   "Wednesday Opening hours": "10am - 6pm",
+   "Thursday Opening hours": "10am - 6pm",
+   "Friday Opening hours": "10am - 6pm",
+   "Saturday Opening hours": "Closed",
+   "Sunday Opening hours": "Closed",
+   "cid": 1400000000000000000,
+   "countryCode": "AU",
+   "isAdvertisement": false,
+   "locatedIn": "",
+   "location": {
+      "lat": -37.8160656,
+      "lng": 144.965325
+   },
+   "menu": "",
+   "neighborhood": "Collins St",
+   "orderBy": [
+      {
+         "name": "",
+         "url": ""
+      }
+   ],
+   "permanentlyClosed": false,
+   "placeId": "ChIJdd2rSbRC1moRBRy9mo5acRM",
+   "plusCode": "5XM8+H4 Melbourne, Victoria, Australia",
+   "postalCode": 3000,
+   "price": "",
+   "rank": 5,
+   "reviewsCount": 118,
+   "reviewsDistribution": {
+      "fiveStar": 49,
+      "fourStar": 42,
+      "oneStar": 2,
+      "threeStar": 24,
+      "twoStar": 1
+   },
+   "scrapedAt": "2022-10-08T14:04:17.596Z",
+   "searchPageUrl": "https://www.google.com/maps/search/shopping+mall+near+Melbourne+VIC/@-37.8231555,144.9459229,12z?hl=en",
+   "searchString": "",
+   "state": "Victoria",
+   "street": "Collins St",
+   "subTitle": "",
+   "temporarilyClosed": false,
+   "url": "https://www.google.com/maps/place/Centreway+Arcade/@-37.8160656,144.965325,17z/data=!3m1!4b1!4m5!3m4!1s0x6ad642b449abdd75:0x13715a8e9abd1c05!8m2!3d-37.8160656!4d144.965325?hl=en"
+}
+]
