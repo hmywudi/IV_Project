@@ -2,7 +2,7 @@ const config = {
   style: "mapbox://styles/mapbox/light-v10",
   accessToken:
     "pk.eyJ1IjoibWFwYm94LWNvbW11bml0eSIsImEiOiJja2tkN21jcjAwMG51MnBxdHAxemdueGpzIn0.e0IzLkytGq4pcGGieP8KNA",
-  CSV: "./Hotel_1.csv",
+  CSV: "./data/Hotel in the City of Melbourne_V2.csv",
   center: [144.95906,-37.81723],
   zoom: 10,
   title: "Replace with your title",
