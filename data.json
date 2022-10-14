@@ -1,0 +1,687 @@
+{
+    "meta" : {
+      "view" : {
+        "id" : "j5vt-ppat",
+        "name" : "Landmarks and places of interest, including schools, theatres, health services, sports facilities, places of worship, galleries and museums.",
+        "assetType" : "dataset",
+        "attribution" : "City of Melbourne",
+        "averageRating" : 0,
+        "category" : "People",
+        "createdAt" : 1398813109,
+        "description" : "This dataset contains a description and co-ordinates of places of interest within the City of Melbourne.\r\n\r\nThemes include: Community Use, Education Centre, Health Services, Leisure/Recreation, Mixed Use, Office, Place Of Assembly, Place of Worship, Purpose Built, Retail, Transport, Vacant Land\r\n\r\nSub-themes include: Art Gallery/Museum, Church, Function/Conference/Exhibition Centre, Informal Outdoor Facility (Park/Garden/Reserve), Major Sports & Recreation Facility, Office, Public Buildings, Public Hospital, Railway Station, Retail/Office/Carpark, Tertiary (University), Theatre Live",
+        "displayType" : "table",
+        "downloadCount" : 3642,
+        "hideFromCatalog" : false,
+        "hideFromDataJson" : false,
+        "indexUpdatedAt" : 1539880531,
+        "licenseId" : "CC_40_BY",
+        "newBackend" : true,
+        "numberOfComments" : 0,
+        "oid" : 25738556,
+        "provenance" : "official",
+        "publicationAppendEnabled" : true,
+        "publicationDate" : 1491457879,
+        "publicationGroup" : 1563694,
+        "publicationStage" : "published",
+        "rowClass" : "",
+        "rowsUpdatedAt" : 1491457720,
+        "rowsUpdatedBy" : "aihc-mkbx",
+        "tableId" : 14133905,
+        "totalTimesRated" : 0,
+        "viewCount" : 11581,
+        "viewLastModified" : 1615527444,
+        "viewType" : "tabular",
+        "approvals" : [ {
+          "reviewedAt" : 1560825333,
+          "reviewedAutomatically" : false,
+          "state" : "approved",
+          "submissionId" : 800406,
+          "submissionObject" : "public_audience_request",
+          "submissionOutcome" : "change_audience",
+          "submittedAt" : 1486423090,
+          "workflowId" : 2180,
+          "reviewer" : {
+            "id" : "svy8-e7in",
+            "displayName" : "Johanna Hopper"
+          },
+          "submissionDetails" : {
+            "permissionType" : "READ"
+          },
+          "submissionOutcomeApplication" : {
+            "endedAt" : 1560825333,
+            "failureCount" : 0,
+            "startedAt" : 1560825333,
+            "status" : "success"
+          },
+          "submitter" : {
+            "id" : "4yi8-jvny",
+            "displayName" : "Will (CoM)"
+          }
+        } ],
+        "clientContext" : {
+          "clientContextVariables" : [ ],
+          "inheritedVariables" : { }
+        },
+        "columns" : [ {
+          "id" : -1,
+          "name" : "sid",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":sid",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : -1,
+          "name" : "id",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":id",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : -1,
+          "name" : "position",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":position",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : -1,
+          "name" : "created_at",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":created_at",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : -1,
+          "name" : "created_meta",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":created_meta",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : -1,
+          "name" : "updated_at",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":updated_at",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : -1,
+          "name" : "updated_meta",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":updated_meta",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : -1,
+          "name" : "meta",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":meta",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : 296713914,
+          "name" : "Theme",
+          "dataTypeName" : "text",
+          "description" : "Theme(category) of feature name.",
+          "fieldName" : "theme",
+          "position" : 1,
+          "renderTypeName" : "text",
+          "tableColumnId" : 19465517,
+          "width" : 199,
+          "cachedContents" : {
+            "largest" : "Warehouse/Store",
+            "non_null" : "242",
+            "null" : "0",
+            "top" : [ {
+              "item" : "Leisure/Recreation",
+              "count" : "63"
+            }, {
+              "item" : "Place Of Assembly",
+              "count" : "40"
+            }, {
+              "item" : "Place of Worship",
+              "count" : "31"
+            }, {
+              "item" : "Transport",
+              "count" : "26"
+            }, {
+              "item" : "Community Use",
+              "count" : "21"
+            }, {
+              "item" : "Education Centre",
+              "count" : "13"
+            }, {
+              "item" : "Health Services",
+              "count" : "11"
+            }, {
+              "item" : "Office",
+              "count" : "11"
+            }, {
+              "item" : "Mixed Use",
+              "count" : "11"
+            }, {
+              "item" : "Purpose Built",
+              "count" : "4"
+            }, {
+              "item" : "Retail",
+              "count" : "3"
+            }, {
+              "item" : "Vacant Land",
+              "count" : "3"
+            }, {
+              "item" : "Residential Accommodation",
+              "count" : "2"
+            }, {
+              "item" : "Warehouse/Store",
+              "count" : "1"
+            }, {
+              "item" : "Industrial",
+              "count" : "1"
+            }, {
+              "item" : "Specialist Residential Accommodation",
+              "count" : "1"
+            } ],
+            "smallest" : "Community Use",
+            "count" : "242",
+            "cardinality" : "16"
+          },
+          "format" : {
+            "align" : "left"
+          }
+        }, {
+          "id" : 296713915,
+          "name" : "Sub Theme",
+          "dataTypeName" : "text",
+          "description" : "Subtheme(subcategory) of the feature name.",
+          "fieldName" : "subtheme",
+          "position" : 2,
+          "renderTypeName" : "text",
+          "tableColumnId" : 19465518,
+          "width" : 275,
+          "cachedContents" : {
+            "largest" : "Visitor Centre",
+            "non_null" : "242",
+            "null" : "0",
+            "top" : [ {
+              "item" : "Informal Outdoor Facility (Park/Garden/Reserve)",
+              "count" : "37"
+            }, {
+              "item" : "Church",
+              "count" : "30"
+            }, {
+              "item" : "Railway Station",
+              "count" : "23"
+            }, {
+              "item" : "Art Gallery/Museum",
+              "count" : "19"
+            }, {
+              "item" : "Theatre Live",
+              "count" : "15"
+            }, {
+              "item" : "Major Sports & Recreation Facility",
+              "count" : "14"
+            }, {
+              "item" : "Public Buildings",
+              "count" : "13"
+            }, {
+              "item" : "Office",
+              "count" : "11"
+            }, {
+              "item" : "Public Hospital",
+              "count" : "7"
+            }, {
+              "item" : "Retail/Office/Carpark",
+              "count" : "5"
+            }, {
+              "item" : "Function/Conference/Exhibition Centre",
+              "count" : "4"
+            }, {
+              "item" : "Tertiary (University)",
+              "count" : "4"
+            }, {
+              "item" : "Outdoor Recreation Facility (Zoo, Golf Course)",
+              "count" : "4"
+            }, {
+              "item" : "Primary Schools",
+              "count" : "4"
+            }, {
+              "item" : "Private Hospital",
+              "count" : "3"
+            }, {
+              "item" : "Police Station",
+              "count" : "3"
+            }, {
+              "item" : "Indoor Recreation Facility",
+              "count" : "3"
+            }, {
+              "item" : "Retail/Office",
+              "count" : "3"
+            }, {
+              "item" : "Secondary Schools",
+              "count" : "2"
+            }, {
+              "item" : "Dwelling (House)",
+              "count" : "2"
+            } ],
+            "smallest" : "Aquarium",
+            "count" : "242",
+            "cardinality" : "49"
+          },
+          "format" : {
+            "align" : "left"
+          }
+        }, {
+          "id" : 296713918,
+          "name" : "Feature Name",
+          "dataTypeName" : "text",
+          "description" : "Name of the landmark.",
+          "fieldName" : "featurenam",
+          "position" : 5,
+          "renderTypeName" : "text",
+          "tableColumnId" : 19465519,
+          "width" : 220,
+          "cachedContents" : {
+            "largest" : "Yarra Park",
+            "non_null" : "242",
+            "null" : "0",
+            "top" : [ {
+              "item" : "Melbourne Central Railway Station",
+              "count" : "4"
+            }, {
+              "item" : "Parliament Railway Station",
+              "count" : "4"
+            }, {
+              "item" : "Victoria Police",
+              "count" : "3"
+            }, {
+              "item" : "Flagstaff Railway Station",
+              "count" : "2"
+            }, {
+              "item" : "Etihad Stadium",
+              "count" : "1"
+            }, {
+              "item" : "Melbourne Magistrates Court",
+              "count" : "1"
+            }, {
+              "item" : "Richmond Railway Station (Richmond) - Train stop",
+              "count" : "1"
+            }, {
+              "item" : "Malthouse Theatre",
+              "count" : "1"
+            }, {
+              "item" : "Melbourne Exhibition Centre",
+              "count" : "1"
+            }, {
+              "item" : "Lincoln Square",
+              "count" : "1"
+            }, {
+              "item" : "St Alban Anglican Church",
+              "count" : "1"
+            }, {
+              "item" : "Flemington Racecourse Railway Station",
+              "count" : "1"
+            }, {
+              "item" : "Eureka Skydeck 88",
+              "count" : "1"
+            }, {
+              "item" : "County Court Melbourne",
+              "count" : "1"
+            }, {
+              "item" : "Sidney Myer Music Bowl",
+              "count" : "1"
+            }, {
+              "item" : "Epworth Freemasons Hospital : Medical Centre",
+              "count" : "1"
+            }, {
+              "item" : "Melbourne Unitarian Church",
+              "count" : "1"
+            }, {
+              "item" : "Myer",
+              "count" : "1"
+            }, {
+              "item" : "Jolimont-MCG Railway Station (East Melbourne) - Train stop",
+              "count" : "1"
+            }, {
+              "item" : "Parliament Reserve",
+              "count" : "1"
+            } ],
+            "smallest" : "AAMI Park",
+            "count" : "242",
+            "cardinality" : "233"
+          },
+          "format" : {
+            "align" : "left"
+          }
+        }, {
+          "id" : 296713923,
+          "name" : "Co-ordinates",
+          "dataTypeName" : "location",
+          "description" : "Co-ordinates of the landmark.",
+          "fieldName" : "geom",
+          "position" : 10,
+          "renderTypeName" : "location",
+          "tableColumnId" : 19465527,
+          "width" : 249,
+          "format" : {
+            "view" : "address_coords",
+            "align" : "left"
+          },
+          "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+        } ],
+        "grants" : [ {
+          "inherited" : false,
+          "type" : "viewer",
+          "flags" : [ "public" ]
+        } ],
+        "license" : {
+          "name" : "Creative Commons Attribution 4.0 International",
+          "logoUrl" : "images/licenses/cc30by.png",
+          "termsLink" : "http://creativecommons.org/licenses/by/4.0/legalcode"
+        },
+        "metadata" : {
+          "rdfSubject" : "0",
+          "rdfClass" : "",
+          "custom_fields" : {
+            "Data management" : {
+              "Source data update frequency" : "Monthly"
+            },
+            "Quality" : {
+              "Update frequency" : "Daily",
+              "Reliability level" : "Useful with caveats",
+              "What's included" : "All data held by the City of Melbourne has been included"
+            }
+          },
+          "rowLabel" : "Row",
+          "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+          "renderTypeConfig" : {
+            "visible" : {
+              "table" : true
+            }
+          }
+        },
+        "owner" : {
+          "id" : "by7m-q3n8",
+          "displayName" : "City of Melbourne Open Data Team",
+          "profileImageUrlLarge" : "/api/users/by7m-q3n8/profile_images/LARGE",
+          "profileImageUrlMedium" : "/api/users/by7m-q3n8/profile_images/THUMB",
+          "profileImageUrlSmall" : "/api/users/by7m-q3n8/profile_images/TINY",
+          "screenName" : "City of Melbourne Open Data Team",
+          "type" : "interactive",
+          "flags" : [ "mayBeStoriesCoOwner" ]
+        },
+        "query" : { },
+        "rights" : [ "read" ],
+        "tableAuthor" : {
+          "id" : "by7m-q3n8",
+          "displayName" : "City of Melbourne Open Data Team",
+          "profileImageUrlLarge" : "/api/users/by7m-q3n8/profile_images/LARGE",
+          "profileImageUrlMedium" : "/api/users/by7m-q3n8/profile_images/THUMB",
+          "profileImageUrlSmall" : "/api/users/by7m-q3n8/profile_images/TINY",
+          "screenName" : "City of Melbourne Open Data Team",
+          "type" : "interactive",
+          "flags" : [ "mayBeStoriesCoOwner" ]
+        },
+        "tags" : [ "landmarks", "significant", "buildings", "worship", "transport", "sport", "recreation", "eventsplanner", "accessibility", "cityreactivation" ],
+        "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType", "unsaved" ]
+      }
+    },
+    "data" : [ [ "row-b32u~cqg8_yimt", "00000000-0000-0000-7496-3DCA432A5714", 0, 1555695633, null, 1555695633, null, "{ }", "Transport", "Railway Station", "Flemington Bridge Railway Station", [ null, "-37.7881645889621", "144.939277838304", null, false ] ]
+  , [ "row-dcyg.3fdm.99qm", "00000000-0000-0000-08D4-E31EA11D8204", 0, 1555695633, null, 1555695633, null, "{ }", "Mixed Use", "Retail/Office/Carpark", "Council House 2 (CH2)", [ null, "-37.8142591432011", "144.966638432727", null, false ] ]
+  , [ "row-3t4u.nfy5-uxn4", "00000000-0000-0000-49BF-7DC6E362C035", 0, 1555695633, null, 1555695633, null, "{ }", "Place Of Assembly", "Library", "The Melbourne Athenaeum Library", [ null, "-37.8148855756416", "144.967291289941", null, false ] ]
+  , [ "row-cke9~4g8v~sckv", "00000000-0000-0000-18E4-9B84E356B9A8", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Informal Outdoor Facility (Park/Garden/Reserve)", "Carlton Gardens South", [ null, "-37.8060684577258", "144.971266479841", null, false ] ]
+  , [ "row-whdm_v7ge_4khf", "00000000-0000-0000-C132-881FD2D08DBC", 0, 1555695633, null, 1555695633, null, "{ }", "Place of Worship", "Church", "St Francis Church", [ null, "-37.8118847831837", "144.962422614541", null, false ] ]
+  , [ "row-n5cc~zzrm.9egx", "00000000-0000-0000-C59D-7321C544653F", 0, 1555695633, null, 1555695633, null, "{ }", "Place of Worship", "Church", "Wesley Church", [ null, "-37.8101576446961", "144.968168215633", null, false ] ]
+  , [ "row-3x96-wbfd~rxkh", "00000000-0000-0000-01CE-DDCE3D3C25F5", 0, 1555695633, null, 1555695633, null, "{ }", "Place of Worship", "Church", "St Augustines Church", [ null, "-37.8169741358546", "144.954862000132", null, false ] ]
+  , [ "row-f2bn.pcvd_hpxp", "00000000-0000-0000-7EF0-98432ACA9D8C", 0, 1555695633, null, 1555695633, null, "{ }", "Place of Worship", "Church", "St James Church", [ null, "-37.8101281201969", "144.952468571683", null, false ] ]
+  , [ "row-km9y_zrzu.ktsg", "00000000-0000-0000-80A9-C5E7B4CC8AC7", 0, 1555695633, null, 1555695633, null, "{ }", "Place of Worship", "Church", "St Mary's Anglican Church", [ null, "-37.8031663672997", "144.953761537074", null, false ] ]
+  , [ "row-q9jv_6ar5_u6eg", "00000000-0000-0000-D8DD-6948A87E9124", 0, 1555695633, null, 1555695633, null, "{ }", "Place of Worship", "Church", "Romanian Orthodox", [ null, "-37.8052307297468", "144.966986444597", null, false ] ]
+  , [ "row-5yh4_ppbm.ivyr", "00000000-0000-0000-FB20-52C2B6B889DB", 0, 1555695633, null, 1555695633, null, "{ }", "Place of Worship", "Church", "Welsh Presbyterian Church", [ null, "-37.8104478768313", "144.959873260087", null, false ] ]
+  , [ "row-yc99_xrek_ri2n", "00000000-0000-0000-BEB4-DFCD4D109419", 0, 1555695633, null, 1555695633, null, "{ }", "Place of Worship", "Church", "Church of Christ", [ null, "-37.8104524079085", "144.96388920294", null, false ] ]
+  , [ "row-g6ga.cev3_ijg9", "00000000-0000-0000-50F9-12BE052CC29C", 0, 1555695633, null, 1555695633, null, "{ }", "Place of Worship", "Church", "Scots Church", [ null, "-37.8145687802664", "144.96855105335", null, false ] ]
+  , [ "row-sxag-j8mt-7an7", "00000000-0000-0000-2333-397CCEC0F716", 0, 1555695633, null, 1555695633, null, "{ }", "Place of Worship", "Church", "St Michael's Uniting Church", [ null, "-37.8143851324913", "144.969174036096", null, false ] ]
+  , [ "row-8rsa~4ivt.a8tj", "00000000-0000-0000-AF26-A91963A761DC", 0, 1555695633, null, 1555695633, null, "{ }", "Place of Worship", "Church", "Greek Orthodox Church", [ null, "-37.8088064667555", "144.978259089269", null, false ] ]
+  , [ "row-xspt.j4q4-y3hm", "00000000-0000-0000-998C-458E638A87F4", 0, 1555695633, null, 1555695633, null, "{ }", "Place of Worship", "Church", "St Peter's Eastern Hill", [ null, "-37.8097086714637", "144.975259178609", null, false ] ]
+  , [ "row-yre5-b2an_53jp", "00000000-0000-0000-EB1E-EFACB8EAAB4F", 0, 1555695633, null, 1555695633, null, "{ }", "Place of Worship", "Church", "Lutheran Trinity Church", [ null, "-37.8109757054396", "144.975729473552", null, false ] ]
+  , [ "row-2p28.qg5f~h3n9", "00000000-0000-0000-5850-7C1216F55CF7", 0, 1555695633, null, 1555695633, null, "{ }", "Place of Worship", "Church", "Holy Trinity", [ null, "-37.8140667110854", "144.983197322289", null, false ] ]
+  , [ "row-vt9r_nm5y~fruk", "00000000-0000-0000-E398-C4D0E1FEE165", 0, 1555695633, null, 1555695633, null, "{ }", "Place of Worship", "Church", "St Johns Lutheran Church", [ null, "-37.8209399677168", "144.967121099857", null, false ] ]
+  , [ "row-mdrc_3hyw.9q5p", "00000000-0000-0000-5397-1BDB2D13CF25", 0, 1555695633, null, 1555695633, null, "{ }", "Place of Worship", "Church", "North Melbourne Uniting", [ null, "-37.8035538471344", "144.947671538375", null, false ] ]
+  , [ "row-9pin~g7mr~qbbi", "00000000-0000-0000-C9B9-31715D067CA8", 0, 1555695633, null, 1555695633, null, "{ }", "Place of Worship", "Church", "Melbourne Unitarian Church", [ null, "-37.8114487773394", "144.984664890999", null, false ] ]
+  , [ "row-myn4-4aua-nm8v", "00000000-0000-0000-7E8F-DE107D6286D9", 0, 1555695633, null, 1555695633, null, "{ }", "Place of Worship", "Church", "All Nations Uniting Church", [ null, "-37.7959155303946", "144.968981110942", null, false ] ]
+  , [ "row-hhzi~ckf6.axm3", "00000000-0000-0000-A7E7-98D0809786C8", 0, 1555695633, null, 1555695633, null, "{ }", "Place of Worship", "Church", "Our Lady of Lebanon Church", [ null, "-37.8025766539683", "144.969334720932", null, false ] ]
+  , [ "row-wjuk~agz9.f9ga", "00000000-0000-0000-D909-BB56C9344E04", 0, 1555695633, null, 1555695633, null, "{ }", "Place of Worship", "Church", "St Michaels", [ null, "-37.7940512679297", "144.945399480629", null, false ] ]
+  , [ "row-mmv9.e73d_5c43", "00000000-0000-0000-EC28-8F97245E5D49", 0, 1555695633, null, 1555695633, null, "{ }", "Place of Worship", "Church", "Ukranian Catholic Cathedral", [ null, "-37.7963084580345", "144.944313454028", null, false ] ]
+  , [ "row-6ax3~in3f-77xg", "00000000-0000-0000-C260-E595F497484F", 0, 1555695633, null, 1555695633, null, "{ }", "Place of Worship", "Church", "St Alban Anglican Church", [ null, "-37.7942169477929", "144.94161451392", null, false ] ]
+  , [ "row-i67b_isdp~sm5s", "00000000-0000-0000-EF14-D6BC9A746B0A", 0, 1555695633, null, 1555695633, null, "{ }", "Place of Worship", "Church", "Christ Church Kensington", [ null, "-37.7932109480553", "144.92729572288", null, false ] ]
+  , [ "row-5dzc~ew7g.4izf", "00000000-0000-0000-92DF-C7CC588BFC72", 0, 1555695633, null, 1555695633, null, "{ }", "Place of Worship", "Church", "Holy Rosary", [ null, "-37.7948087414394", "144.928362125005", null, false ] ]
+  , [ "row-2tz5.wjc2~xhba", "00000000-0000-0000-3B32-56FF597C7E38", 0, 1555695633, null, 1555695633, null, "{ }", "Place of Worship", "Church", "Collins Street Baptist Church", [ null, "-37.8147011904647", "144.968072486031", null, false ] ]
+  , [ "row-56im-fhnh.mhpg", "00000000-0000-0000-D8AF-F6C980B05E2B", 0, 1555695633, null, 1555695633, null, "{ }", "Place of Worship", "Church", "St Thomas Aquinas Church", [ null, "-37.8353076902578", "144.976809080472", null, false ] ]
+  , [ "row-3u84~939e_bpta", "00000000-0000-0000-8EED-76C23866DE6F", 0, 1555695633, null, 1555695633, null, "{ }", "Place of Worship", "Church", "South Yarra Presbyterian Church", [ null, "-37.8407473645397", "144.98562699348", null, false ] ]
+  , [ "row-zd7z-gchg-st93", "00000000-0000-0000-35B6-E5CD739AFF3F", 0, 1555695633, null, 1555695633, null, "{ }", "Place of Worship", "Church", "The Parish of Christ Church South Yarra", [ null, "-37.8386270533576", "144.986009385387", null, false ] ]
+  , [ "row-8ti6-kex5_dmsp", "00000000-0000-0000-3AAD-F1CDF2A55522", 0, 1555695633, null, 1555695633, null, "{ }", "Health Services", "Private Hospital", "Melbourne Private Hospital", [ null, "-37.7983111309698", "144.95728837725", null, false ] ]
+  , [ "row-ugc7_v6qb~wiup", "00000000-0000-0000-368A-5273E55C3B71", 0, 1555695633, null, 1555695633, null, "{ }", "Place of Worship", "Synagogue", "East Melbourne Synagogue", [ null, "-37.809113728917", "144.97422190954", null, false ] ]
+  , [ "row-ap47-brvg.7d38", "00000000-0000-0000-1CFA-25585F8837B5", 0, 1555695633, null, 1555695633, null, "{ }", "Community Use", "Police Station", "Victoria Police", [ null, "-37.8164849024046", "144.966486801188", null, false ] ]
+  , [ "row-4vx9.awiw-6pra", "00000000-0000-0000-7B4C-891EFEFB9605", 0, 1555695633, null, 1555695633, null, "{ }", "Community Use", "Police Station", "Victoria Police", [ null, "-37.8003121288849", "144.954697453742", null, false ] ]
+  , [ "row-vt4t.4bj3-bxzp", "00000000-0000-0000-0AC5-8C883A930B75", 0, 1555695633, null, 1555695633, null, "{ }", "Community Use", "Police Station", "Victoria Police", [ null, "-37.8219773910249", "144.953398014034", null, false ] ]
+  , [ "row-tvsp_kcjg~tq7u", "00000000-0000-0000-5132-948F978FF349", 0, 1555695633, null, 1555695633, null, "{ }", "Community Use", "Visitor Centre", "Melbourne Visitor Booth", [ null, "-37.8139525061193", "144.964425882562", null, false ] ]
+  , [ "row-imca~cpuj-r7my", "00000000-0000-0000-9B71-C2F527FBE270", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Major Sports & Recreation Facility", "State Netball Hockey Centre", [ null, "-37.7857860016289", "144.947580972027", null, false ] ]
+  , [ "row-5eyi_b3am-wikc", "00000000-0000-0000-F0A6-0F75CD94CD52", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Informal Outdoor Facility (Park/Garden/Reserve)", "University Square", [ null, "-37.800410711209", "144.960398319302", null, false ] ]
+  , [ "row-fev4-9der~cx8x", "00000000-0000-0000-FCE5-4AB752E4A453", 0, 1555695633, null, 1555695633, null, "{ }", "Transport", "Transport Terminal", "Port of Melbourne", [ null, "-37.8137384362671", "144.91753432375", null, false ] ]
+  , [ "row-nmy4.dt9a_y27j", "00000000-0000-0000-9E49-30BCC6FBF6FC", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Private Sports Club/Facility", "Royal Park Golf Course", [ null, "-37.7819171308558", "144.956309119368", null, false ] ]
+  , [ "row-bvh4~99xe~unua", "00000000-0000-0000-1C80-95B6B238E565", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Informal Outdoor Facility (Park/Garden/Reserve)", "Powlett Reserve", [ null, "-37.8116929882498", "144.987275671763", null, false ] ]
+  , [ "row-tpi6-ygd9~ijf6", "00000000-0000-0000-664F-4A34780CA413", 0, 1555695633, null, 1555695633, null, "{ }", "Community Use", "Cemetery", "Melbourne General Cemetery", [ null, "-37.7891890023616", "144.965785979892", null, false ] ]
+  , [ "row-nh33_r5f5.455t", "00000000-0000-0000-EA82-1A1209B82542", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Major Sports & Recreation Facility", "Carlton Football Club", [ null, "-37.7840864379557", "144.961967841559", null, false ] ]
+  , [ "row-ssr9~5utn_e4jr", "00000000-0000-0000-83E8-EE6DDE92FEF2", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Major Sports & Recreation Facility", "Visy Park", [ null, "-37.7834303940347", "144.961982577553", null, false ] ]
+  , [ "row-kn26.xpxg_a5sn", "00000000-0000-0000-FE18-880FF04020BF", 0, 1555695633, null, 1555695633, null, "{ }", "Retail", "Retail", "Queen Victoria Market", [ null, "-37.8075002018073", "144.957158515056", null, false ] ]
+  , [ "row-n8tr.6jx4_venz", "00000000-0000-0000-D442-1F4AEDB0C5EB", 0, 1555695633, null, 1555695633, null, "{ }", "Education Centre", "Primary Schools", "Carlton Gardens Primary School", [ null, "-37.8020953835112", "144.969406272035", null, false ] ]
+  , [ "row-kpp3~sz4n_45va", "00000000-0000-0000-82A1-6CC60B6DC62B", 0, 1555695633, null, 1555695633, null, "{ }", "Education Centre", "Primary Schools", "Carlton Primary School", [ null, "-37.7959079757171", "144.970147317976", null, false ] ]
+  , [ "row-kmf8-u25r.ckid", "00000000-0000-0000-5610-FC19B64510E4", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Informal Outdoor Facility (Park/Garden/Reserve)", "Carlton Gardens North", [ null, "-37.8017690847403", "144.971997551189", null, false ] ]
+  , [ "row-8gbf.kc6f_7qha", "00000000-0000-0000-6355-AD555945F4F1", 0, 1555695633, null, 1555695633, null, "{ }", "Place Of Assembly", "Art Gallery/Museum", "Old Melbourne Gaol Crime & Justice Experience", [ null, "-37.8077644149636", "144.965463853978", null, false ] ]
+  , [ "row-64sc_z2rq~q7wd", "00000000-0000-0000-6B00-56FDB758CB0A", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Informal Outdoor Facility (Park/Garden/Reserve)", "Kings Domain", [ null, "-37.8255239795833", "144.974107925144", null, false ] ]
+  , [ "row-x28p_fdwx_r6cm", "00000000-0000-0000-0F83-2E2290639B42", 0, 1555695633, null, 1555695633, null, "{ }", "Education Centre", "Secondary Schools", "Melbourne Grammar School", [ null, "-37.8342561018747", "144.976285045233", null, false ] ]
+  , [ "row-fhzr_nsen-6jma", "00000000-0000-0000-D761-13FD7164261B", 0, 1555695633, null, 1555695633, null, "{ }", "Education Centre", "School - Primary and Secondary Education", "Wesley College", [ null, "-37.8485201804496", "144.982227770988", null, false ] ]
+  , [ "row-4j53.xjir~sxxd", "00000000-0000-0000-9A95-2325E5A597EA", 0, 1555695633, null, 1555695633, null, "{ }", "Place Of Assembly", "Theatre Live", "FairFax Studio", [ null, "-37.8216684581887", "144.968836241692", null, false ] ]
+  , [ "row-uy4j~6hzc~4mvf", "00000000-0000-0000-5B63-50FED1FC079C", 0, 1555695633, null, 1555695633, null, "{ }", "Place Of Assembly", "Theatre Live", "Playhouse", [ null, "-37.8218124583016", "144.968337832721", null, false ] ]
+  , [ "row-5zxy-69qk-cgsf", "00000000-0000-0000-901C-ACCDEB834735", 0, 1555695633, null, 1555695633, null, "{ }", "Place Of Assembly", "Theatre Live", "State Theatre", [ null, "-37.8212806349773", "144.968469643744", null, false ] ]
+  , [ "row-cixn-74ew_vqzb", "00000000-0000-0000-5FC3-D70B6B1DF8EA", 0, 1555695633, null, 1555695633, null, "{ }", "Education Centre", "Tertiary (University)", "University of Melbourne (VCA and Music)", [ null, "-37.8241137662047", "144.96933253996", null, false ] ]
+  , [ "row-97cj_dn4g-72ym", "00000000-0000-0000-4A33-78A13D6E8652", 0, 1555695633, null, 1555695633, null, "{ }", "Place Of Assembly", "Theatre Live", "St Martins Youth Arts Centre", [ null, "-37.8352429531289", "144.98114217385", null, false ] ]
+  , [ "row-5gtb_etxm~ctit", "00000000-0000-0000-9556-7977DAA00774", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Major Sports & Recreation Facility", "Flemington Racecourse", [ null, "-37.7908082646624", "144.912142987372", null, false ] ]
+  , [ "row-yutp~i2rk-7tgh", "00000000-0000-0000-C884-B82A5358F133", 0, 1555695633, null, 1555695633, null, "{ }", "Transport", "Railway Station", "Southern Cross Railway Station", [ null, "-37.8181633057171", "144.952944748845", null, false ] ]
+  , [ "row-baeq~6ys3_5er7", "00000000-0000-0000-3FDF-03B20B20A82E", 0, 1555695633, null, 1555695633, null, "{ }", "Place Of Assembly", "Theatre Live", "Princess Theatre", [ null, "-37.8107257091302", "144.9723265962", null, false ] ]
+  , [ "row-cc84-ay6d_9pbz", "00000000-0000-0000-4554-42E758818C65", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Informal Outdoor Facility (Park/Garden/Reserve)", "Treasury Gardens", [ null, "-37.8143993575938", "144.975952335785", null, false ] ]
+  , [ "row-mfn3-436n.mdip", "00000000-0000-0000-8666-F57EB1215D11", 0, 1555695633, null, 1555695633, null, "{ }", "Education Centre", "Secondary Schools", "University High School", [ null, "-37.7973136216903", "144.956034449946", null, false ] ]
+  , [ "row-pig9_nhbv-7ef8", "00000000-0000-0000-74D4-1CC11FB4FB8B", 0, 1555695633, null, 1555695633, null, "{ }", "Community Use", "Public Buildings", "State Library Victoria", [ null, "-37.8099852201226", "144.964330322397", null, false ] ]
+  , [ "row-sdpv_3ykj~8cu4", "00000000-0000-0000-15AC-A5C9BABE1E8B", 0, 1555695633, null, 1555695633, null, "{ }", "Place Of Assembly", "Theatre Live", "Regent Theatre", [ null, "-37.8160014744179", "144.967916735261", null, false ] ]
+  , [ "row-ff8h.imb5-yjkk", "00000000-0000-0000-9975-C91228A7A1C0", 0, 1555695633, null, 1555695633, null, "{ }", "Mixed Use", "Retail/Office", "Treasury Reserve", [ null, "-37.8129178793082", "144.975236759799", null, false ] ]
+  , [ "row-iuh8_mi5i.xtzh", "00000000-0000-0000-518D-D783AD8D4794", 0, 1555695633, null, 1555695633, null, "{ }", "Office", "Office", "Old Treasury Building", [ null, "-37.8132371662585", "144.974423610255", null, false ] ]
+  , [ "row-wrkm-64sv-2sji", "00000000-0000-0000-1156-B03770961211", 0, 1555695633, null, 1555695633, null, "{ }", "Health Services", "Private Hospital", "Epworth Freemasons Hospital : Medical Centre", [ null, "-37.8093444587231", "144.982336768182", null, false ] ]
+  , [ "row-n5gv_ytid-jzhw", "00000000-0000-0000-C51F-772DE700389E", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Informal Outdoor Facility (Park/Garden/Reserve)", "Batman Park", [ null, "-37.8218460949601", "144.956665812218", null, false ] ]
+  , [ "row-ns7u_2g25.v3ga", "00000000-0000-0000-FB3B-235E86E47D2E", 0, 1555695633, null, 1555695633, null, "{ }", "Office", "Office", "Australian Red Cross", [ null, "-37.7990921023192", "144.952635945774", null, false ] ]
+  , [ "row-w2gb.uxam-viw4", "00000000-0000-0000-AD3C-FCB441B265A7", 0, 1555695633, null, 1555695633, null, "{ }", "Community Use", "Government Building", "Melbourne Magistrates Court", [ null, "-37.8136147671606", "144.956846193891", null, false ] ]
+  , [ "row-kg4s-kbjz~tgj8", "00000000-0000-0000-2D1C-A0DAB66DB991", 0, 1555695633, null, 1555695633, null, "{ }", "Transport", "Railway Station", "Flagstaff Railway Station", [ null, "-37.8122356514626", "144.956318211113", null, false ] ]
+  , [ "row-9uvb_abn2-tki5", "00000000-0000-0000-CB15-B7313A540D5D", 0, 1555695633, null, 1555695633, null, "{ }", "Community Use", "Public Buildings", "Supreme Court", [ null, "-37.8141494182814", "144.957894024264", null, false ] ]
+  , [ "row-x4wi~dvqv-g9i3", "00000000-0000-0000-88D7-AD17833DFE62", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Informal Outdoor Facility (Park/Garden/Reserve)", "Richmond Football Club", [ null, "-37.8216740022008", "144.988156318781", null, false ] ]
+  , [ "row-42ag-djjy~7n63", "00000000-0000-0000-FF71-3CCA8C5637DC", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Major Sports & Recreation Facility", "Melbourne Cricket Ground (MCG)", [ null, "-37.8194921618419", "144.983402879078", null, false ] ]
+  , [ "row-vrp2~g4cs.n57a", "00000000-0000-0000-49D3-24764608A9CA", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Outdoor Recreation Facility (Zoo, Golf Course)", "Melbourne Zoo", [ null, "-37.7844449253712", "144.951371205938", null, false ] ]
+  , [ "row-7ebb.nxs3~8925", "00000000-0000-0000-CF0F-C75F288EBEBD", 0, 1555695633, null, 1555695633, null, "{ }", "Office", "Office", "Australian Broadcasting Corporation (ABC)", [ null, "-37.823813323734", "144.966551401578", null, false ] ]
+  , [ "row-ei4d.xcn4_nnb7", "00000000-0000-0000-6074-2194E037CFC6", 0, 1555695633, null, 1555695633, null, "{ }", "Place Of Assembly", "Function/Conference/Exhibition Centre", "Melbourne Exhibition Centre", [ null, "-37.8252455123297", "144.95435243249", null, false ] ]
+  , [ "row-qu9s_ug8j_2m4i", "00000000-0000-0000-896D-5D46C2084074", 0, 1555695633, null, 1555695633, null, "{ }", "Place Of Assembly", "Function/Conference/Exhibition Centre", "Melbourne Convention Centre", [ null, "-37.8249040484653", "144.952288281644", null, false ] ]
+  , [ "row-b73p-qqp8_ittp", "00000000-0000-0000-16EC-6793669846E4", 0, 1555695633, null, 1555695633, null, "{ }", "Place Of Assembly", "Art Gallery/Museum", "Polly Woodside", [ null, "-37.8242574266145", "144.953478052064", null, false ] ]
+  , [ "row-nk98-ni6z-8u8i", "00000000-0000-0000-E040-F46612D752F8", 0, 1555695633, null, 1555695633, null, "{ }", "Vacant Land", "Vacant Land - Undeveloped Site", "Melbourne International Karting Complex", [ null, "-37.8310746380616", "144.913822928701", null, false ] ]
+  , [ "row-9e2t~ucjc.btvz", "00000000-0000-0000-B568-7E3615B310DB", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Private Sports Club/Facility", "Melbourne International Shooting Club", [ null, "-37.8292844929826", "144.913415802464", null, false ] ]
+  , [ "row-9aqy_y5e3.f4np", "00000000-0000-0000-E712-1B881FFE73D9", 0, 1555695633, null, 1555695633, null, "{ }", "Mixed Use", "Retail/Office/Carpark", "Southgate Arts and Leisure Precinct", [ null, "-37.8202245786597", "144.965989052839", null, false ] ]
+  , [ "row-24vh_d9y4-fctm", "00000000-0000-0000-D9EF-1DF4ECC79254", 0, 1555695633, null, 1555695633, null, "{ }", "Place Of Assembly", "Art Gallery/Museum", "Australian Centre for Contemporary Art", [ null, "-37.8266045432686", "144.967252924593", null, false ] ]
+  , [ "row-27f9-bgw4~mrjm", "00000000-0000-0000-EF2D-E1CA0434614A", 0, 1555695633, null, 1555695633, null, "{ }", "Place Of Assembly", "Theatre Live", "Malthouse Theatre", [ null, "-37.8271768001126", "144.966936821789", null, false ] ]
+  , [ "row-y6jy_qtxu~5tjv", "00000000-0000-0000-9A98-CDA01F6EFA7D", 0, 1555695633, null, 1555695633, null, "{ }", "Place of Worship", "Church", "St Patricks Cathedral", [ null, "-37.8101140950474", "144.975901529712", null, false ] ]
+  , [ "row-vwq8-adgj_j47x", "00000000-0000-0000-9902-FD3D94E3982F", 0, 1555695633, null, 1555695633, null, "{ }", "Place Of Assembly", "Art Gallery/Museum", "Victorian Arts Centre", [ null, "-37.8219947335768", "144.968837288153", null, false ] ]
+  , [ "row-irit_qt3q-6qeg", "00000000-0000-0000-A5C2-497F4926C15A", 0, 1555695633, null, 1555695633, null, "{ }", "Office", "Office", "Parliament House", [ null, "-37.811246655376", "144.97372641185", null, false ] ]
+  , [ "row-8ejj-5uqt-e9b5", "00000000-0000-0000-8C1E-A21E932DC328", 0, 1555695633, null, 1555695633, null, "{ }", "Community Use", "Public Buildings", "Melbourne Town Hall", [ null, "-37.8150754791411", "144.966542722283", null, false ] ]
+  , [ "row-3ft7.v7xt_jdq9", "00000000-0000-0000-D7CA-58CEAFF5E517", 0, 1555695633, null, 1555695633, null, "{ }", "Office", "Office", "Former Royal Mint", [ null, "-37.8121838748712", "144.957055454136", null, false ] ]
+  , [ "row-tixk_m35p_dpfr", "00000000-0000-0000-5D22-2554DF35DC99", 0, 1555695633, null, 1555695633, null, "{ }", "Mixed Use", "Retail/Office", "DFO South Wharf", [ null, "-37.824887401234", "144.949794297819", null, false ] ]
+  , [ "row-8u3b_nhz4-j9h7", "00000000-0000-0000-C989-21344F949DBF", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Informal Outdoor Facility (Park/Garden/Reserve)", "Queen Victoria Gardens", [ null, "-37.8216381244891", "144.971049530478", null, false ] ]
+  , [ "row-u3dd_y6nj_6hhm", "00000000-0000-0000-2F86-E4CFEA3FC0F1", 0, 1555695633, null, 1555695633, null, "{ }", "Community Use", "Public Buildings", "Sidney Myer Music Bowl", [ null, "-37.8233471608733", "144.974686151365", null, false ] ]
+  , [ "row-7xc3.fd92.8pej", "00000000-0000-0000-02DA-E260B32A0697", 0, 1555695633, null, 1555695633, null, "{ }", "Purpose Built", "Casino", "Crown Entertainment Complex", [ null, "-37.8235761092516", "144.957312880653", null, false ] ]
+  , [ "row-8hip.8bpp-78mw", "00000000-0000-0000-CEB2-A9EC973E1D43", 0, 1555695633, null, 1555695633, null, "{ }", "Health Services", "Public Hospital", "The Royal Victorian Eye & Ear Hospital", [ null, "-37.8087522829868", "144.976268275082", null, false ] ]
+  , [ "row-c3tp-brcc-36ad", "00000000-0000-0000-D01A-E59FC82EFE5A", 0, 1555695633, null, 1555695633, null, "{ }", "Office", "Office", "SBS (Special Broadcasting Service)", [ null, "-37.8176921210305", "144.968740597156", null, false ] ]
+  , [ "row-i26x-9g5v~hamr", "00000000-0000-0000-A1CA-B402D821DFA1", 0, 1555695633, null, 1555695633, null, "{ }", "Place Of Assembly", "Art Gallery/Museum", "The Ian Potter Centre: NGV Australia", [ null, "-37.8174831423197", "144.969899048343", null, false ] ]
+  , [ "row-bst5_ydj5-zwrh", "00000000-0000-0000-FCB8-08768A5CF010", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Informal Outdoor Facility (Park/Garden/Reserve)", "Federation Square", [ null, "-37.8178516571684", "144.968963600783", null, false ] ]
+  , [ "row-tqed-gf88.cykw", "00000000-0000-0000-0391-3B411C7251AA", 0, 1555695633, null, 1555695633, null, "{ }", "Place Of Assembly", "Art Gallery/Museum", "Thoroughbred Racing Gallery", [ null, "-37.8188662730911", "144.9839700954", null, false ] ]
+  , [ "row-www4.7jcm-psxn", "00000000-0000-0000-A946-3EBAFCE5AFB8", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Informal Outdoor Facility (Park/Garden/Reserve)", "New Quay", [ null, "-37.8152178789077", "144.941617889032", null, false ] ]
+  , [ "row-8rbu~bf86.gnm7", "00000000-0000-0000-E655-60EFAE703E2E", 0, 1555695633, null, 1555695633, null, "{ }", "Purpose Built", "Film & RV Studio", "Central City Studios", [ null, "-37.8142318521296", "144.935655305362", null, false ] ]
+  , [ "row-5cuk-y493~kenr", "00000000-0000-0000-569F-D0DBD2075A5C", 0, 1555695633, null, 1555695633, null, "{ }", "Purpose Built", "Film & RV Studio", "Channel 7 - Melbourne Broadcast Centre", [ null, "-37.8158572333481", "144.94582326909", null, false ] ]
+  , [ "row-v8fi_55bu_r5hd", "00000000-0000-0000-F5B3-AF2C3B529CD1", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Informal Outdoor Facility (Park/Garden/Reserve)", "Docklands Park", [ null, "-37.8209956785618", "144.946781702342", null, false ] ]
+  , [ "row-a5cg.hgi9~p2ai", "00000000-0000-0000-1986-19D1F75BCC0F", 0, 1555695633, null, 1555695633, null, "{ }", "Mixed Use", "Retail/Office", "Waterfront City", [ null, "-37.815056661803", "144.939136876334", null, false ] ]
+  , [ "row-jfsn_ztes_w9f2", "00000000-0000-0000-AD6B-0A09B0ABDA1E", 0, 1555695633, null, 1555695633, null, "{ }", "Vacant Land", "Current Construction Site", "Harbour Town", [ null, "-37.8139256326845", "144.938123825625", null, false ] ]
+  , [ "row-w9kw.3t64-js8v", "00000000-0000-0000-D5E6-BC00A9317E29", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Major Sports & Recreation Facility", "AAMI Park", [ null, "-37.8247252673963", "144.98380297866", null, false ] ]
+  , [ "row-mfwa-z64u~uhq9", "00000000-0000-0000-5171-B01A178E494B", 0, 1555695633, null, 1555695633, null, "{ }", "Transport", "Marina", "New Quay Marina", [ null, "-37.8152925454954", "144.942283726231", null, false ] ]
+  , [ "row-79kd~qy4f_ed6m", "00000000-0000-0000-BF5F-379DC871A224", 0, 1555695633, null, 1555695633, null, "{ }", "Place Of Assembly", "Function/Conference/Exhibition Centre", "Central Pier", [ null, "-37.8165177307702", "144.943475014215", null, false ] ]
+  , [ "row-q383.kasy.2sxg", "00000000-0000-0000-1374-8FA18ACCEFF8", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Observation Tower/Wheel", "Melbourne Star Observation Wheel", [ null, "-37.8116163666726", "144.937588920436", null, false ] ]
+  , [ "row-gac9~59mr_fffj", "00000000-0000-0000-1B53-031E3A1237B3", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Informal Outdoor Facility (Park/Garden/Reserve)", "Point Park", [ null, "-37.8233522700646", "144.942102276731", null, false ] ]
+  , [ "row-uj56-q7qg-ey8y", "00000000-0000-0000-8EC0-CE9091083143", 0, 1555695633, null, 1555695633, null, "{ }", "Education Centre", "Primary Schools", "Kensington Primary School", [ null, "-37.7925235045455", "144.927108735461", null, false ] ]
+  , [ "row-qhhz_4s5k.py9t", "00000000-0000-0000-1156-DCA26BDFAADC", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Informal Outdoor Facility (Park/Garden/Reserve)", "Newmarket Reserve", [ null, "-37.7878473341234", "144.922972125346", null, false ] ]
+  , [ "row-h63b.ufzh~ygsw", "00000000-0000-0000-CB5F-398A054CE535", 0, 1555695633, null, 1555695633, null, "{ }", "Health Services", "Public Hospital", "Royal Womens Hospital", [ null, "-37.7988892460088", "144.954897253856", null, false ] ]
+  , [ "row-cuaw_v2qt.mj7a", "00000000-0000-0000-6638-94AB51F7B95F", 0, 1555695633, null, 1555695633, null, "{ }", "Education Centre", "Further Education", "Kangan Batman Tafe", [ null, "-37.8221818203024", "144.948908460665", null, false ] ]
+  , [ "row-uqja_x47s.379d", "00000000-0000-0000-A9F2-C361054752D8", 0, 1555695633, null, 1555695633, null, "{ }", "Place Of Assembly", "Art Gallery/Museum", "Fox Classic Car Collection", [ null, "-37.8213744301481", "144.948496661709", null, false ] ]
+  , [ "row-zw35-2vek_7puh", "00000000-0000-0000-A784-2270E107EF79", 0, 1555695633, null, 1555695633, null, "{ }", "Specialist Residential Accommodation", "Hostel", "The Mission To Seafarers Victoria", [ null, "-37.8224995970811", "144.951254841448", null, false ] ]
+  , [ "row-xwg7~c9s4_2kmy", "00000000-0000-0000-2221-0F220BD9C23D", 0, 1555695633, null, 1555695633, null, "{ }", "Vacant Land", "Current Construction Site - Commercial", "Railway Good Shed No 2", [ null, "-37.8211371302179", "144.951378883631", null, false ] ]
+  , [ "row-gicz-ze94.j638", "00000000-0000-0000-AF42-3CA3485476F2", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Outdoor Recreation Facility (Zoo, Golf Course)", "Wonderland Park", [ null, "-37.8116945351989", "144.936833674975", null, false ] ]
+  , [ "row-u79r.d77d-7342", "00000000-0000-0000-710A-D80A94AEE989", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Major Sports & Recreation Facility", "Rod Laver Arena", [ null, "-37.8220456119807", "144.978487173787", null, false ] ]
+  , [ "row-9pvb_t626.5eii", "00000000-0000-0000-63D2-F27F1CC1E836", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Major Sports & Recreation Facility", "Melbourne Park", [ null, "-37.8209085970021", "144.978735802793", null, false ] ]
+  , [ "row-jkrc-heht~amfm", "00000000-0000-0000-F89E-37651B2C7FA2", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Major Sports & Recreation Facility", "Margaret Court Arena", [ null, "-37.8213252086842", "144.977591098955", null, false ] ]
+  , [ "row-c9bu_b64a_fry3", "00000000-0000-0000-6165-88F34AB06669", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Major Sports & Recreation Facility", "Hisense Arena", [ null, "-37.823110002667", "144.981834802535", null, false ] ]
+  , [ "row-stit-utmy_x7yx", "00000000-0000-0000-05B5-DE53F8515551", 0, 1555695633, null, 1555695633, null, "{ }", "Place Of Assembly", "Art Gallery/Museum", "Melbourne Museum", [ null, "-37.8035518129299", "144.971690718887", null, false ] ]
+  , [ "row-457p~9gws.jipi", "00000000-0000-0000-FA65-FF4EEF63A1B6", 0, 1555695633, null, 1555695633, null, "{ }", "Place Of Assembly", "Cinema", "IMAX Melbourne", [ null, "-37.8034315561903", "144.970639929886", null, false ] ]
+  , [ "row-piy3.y48g~qm65", "00000000-0000-0000-9DAC-FCBD6C31FF65", 0, 1555695633, null, 1555695633, null, "{ }", "Community Use", "Public Buildings", "Melbourne Theatre Company", [ null, "-37.823930384816", "144.968297429894", null, false ] ]
+  , [ "row-mchx~8kne_z77w", "00000000-0000-0000-460B-7DE640A8F05A", 0, 1555695633, null, 1555695633, null, "{ }", "Place Of Assembly", "Theatre Live", "MTC Theatre", [ null, "-37.8242661832902", "144.968174400274", null, false ] ]
+  , [ "row-h7dc~xf8y-vdea", "00000000-0000-0000-A64C-9B3BCFB6B092", 0, 1555695633, null, 1555695633, null, "{ }", "Community Use", "Public Buildings", "Elisabeth Murdoch Hall", [ null, "-37.8239733704282", "144.967450979234", null, false ] ]
+  , [ "row-i9n9_py7t.a8q3", "00000000-0000-0000-489F-08A631527D21", 0, 1555695633, null, 1555695633, null, "{ }", "Community Use", "Public Buildings", "Melbourne Recital Centre", [ null, "-37.8238327885805", "144.967682729667", null, false ] ]
+  , [ "row-8j29-8smg~cu7t", "00000000-0000-0000-0CA1-323C1AC62FEF", 0, 1555695633, null, 1555695633, null, "{ }", "Community Use", "Public Buildings", "NGV International", [ null, "-37.8230135000869", "144.969342535451", null, false ] ]
+  , [ "row-y4p3~jvfr_upmk", "00000000-0000-0000-7F2A-F3E38CADCC37", 0, 1555695633, null, 1555695633, null, "{ }", "Place Of Assembly", "Theatre Live", "Hamer Hall", [ null, "-37.8199901009015", "144.967992144257", null, false ] ]
+  , [ "row-dbzv-ytri_c25w", "00000000-0000-0000-2BF7-07AC6B6E30FD", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Informal Outdoor Facility (Park/Garden/Reserve)", "Birrarung Marr", [ null, "-37.81806108403", "144.97314667014", null, false ] ]
+  , [ "row-5uab_fsrz~cqrb", "00000000-0000-0000-1BBD-EB274F5F2C15", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Indoor Recreation Facility", "Artplay", [ null, "-37.8184198800044", "144.971542586509", null, false ] ]
+  , [ "row-yuak.qxug.hkd5", "00000000-0000-0000-849E-73132FA04D04", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Informal Outdoor Facility (Park/Garden/Reserve)", "Riverslide Skate Park", [ null, "-37.8207887122448", "144.972951789291", null, false ] ]
+  , [ "row-yx95.87j9~uaw2", "00000000-0000-0000-40CD-ADE93152C552", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Informal Outdoor Facility (Park/Garden/Reserve)", "Alexandra Gardens", [ null, "-37.8206051404251", "144.971796067365", null, false ] ]
+  , [ "row-nrih_eqaz.zs5s", "00000000-0000-0000-4E46-D0950B304F62", 0, 1555695633, null, 1555695633, null, "{ }", "Transport", "Railway Station", "Parliament Railway Station", [ null, "-37.8116061787171", "144.973017263156", null, false ] ]
+  , [ "row-kf6x.htzv~wup2", "00000000-0000-0000-59B1-792728B8C27E", 0, 1555695633, null, 1555695633, null, "{ }", "Transport", "Railway Station", "Richmond Railway Station (Richmond) - Train stop", [ null, "-37.8238992659834", "144.989400751664", null, false ] ]
+  , [ "row-ja7n_jtpx~u5ay", "00000000-0000-0000-B7E7-B0486AB10E29", 0, 1555695633, null, 1555695633, null, "{ }", "Transport", "Railway Station", "Jolimont-MCG Railway Station (East Melbourne) - Train stop", [ null, "-37.8165651811668", "144.983641003377", null, false ] ]
+  , [ "row-z6n2_tpkb-maig", "00000000-0000-0000-AB25-68F51EFF62BC", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Informal Outdoor Facility (Park/Garden/Reserve)", "North Melbourne Recreation Reserve", [ null, "-37.7988345257153", "144.941452061463", null, false ] ]
+  , [ "row-tjvu~5tmy-65df", "00000000-0000-0000-0D8D-32B943AFAA23", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Informal Outdoor Facility (Park/Garden/Reserve)", "J.J Holland Park", [ null, "-37.7982358832177", "144.923837074813", null, false ] ]
+  , [ "row-r9xt.3pxj~x3km", "00000000-0000-0000-B613-04479BB2E7C9", 0, 1555695633, null, 1555695633, null, "{ }", "Transport", "Railway Station", "Macaulay Railway Station (North Melbourne) - Train stop", [ null, "-37.794964001386", "144.936190756632", null, false ] ]
+  , [ "row-pek7-5533~cifu", "00000000-0000-0000-B889-6B0BC57A6DE5", 0, 1555695633, null, 1555695633, null, "{ }", "Transport", "Railway Station", "Kensington Railway Station", [ null, "-37.7939140126373", "144.930710207518", null, false ] ]
+  , [ "row-aa8p_pwpq.5t37", "00000000-0000-0000-60BE-A14DB8D2472E", 0, 1555695633, null, 1555695633, null, "{ }", "Transport", "Railway Station", "South Kensington Railway Station", [ null, "-37.7997270537735", "144.925837749713", null, false ] ]
+  , [ "row-2rui.r4me.xi5f", "00000000-0000-0000-5CFC-931B061C4AF3", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Informal Outdoor Facility (Park/Garden/Reserve)", "Royal Park", [ null, "-37.7906174256581", "144.953834240647", null, false ] ]
+  , [ "row-2khy~kbdw~nns9", "00000000-0000-0000-BDBE-9A106E377E5B", 0, 1555695633, null, 1555695633, null, "{ }", "Health Services", "Public Hospital", "Royal Childrens Hospital", [ null, "-37.7942060847278", "144.950048264678", null, false ] ]
+  , [ "row-utga-uws8_dsf3", "00000000-0000-0000-27EB-820D222F3BA0", 0, 1555695633, null, 1555695633, null, "{ }", "Transport", "Railway Station", "Royal Park Railway Station", [ null, "-37.7812684282825", "144.951667833921", null, false ] ]
+  , [ "row-isia-gxvf.7eiv", "00000000-0000-0000-BD2F-09809A0803B1", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Informal Outdoor Facility (Park/Garden/Reserve)", "Princes Park", [ null, "-37.7870161727156", "144.961115214367", null, false ] ]
+  , [ "row-zf87-ksmb_y8fw", "00000000-0000-0000-403D-483226F132F8", 0, 1555695633, null, 1555695633, null, "{ }", "Place Of Assembly", "Art Gallery/Museum", "National Sports Museum", [ null, "-37.8189544909462", "144.984669809381", null, false ] ]
+  , [ "row-uqjr_mpdd-kyra", "00000000-0000-0000-C2F9-78A1CE899BFF", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Informal Outdoor Facility (Park/Garden/Reserve)", "Shrine of Rembrance Reserve", [ null, "-37.8320733992876", "144.973628364465", null, false ] ]
+  , [ "row-zw2c.tpkm_myy6", "00000000-0000-0000-36AD-A08387B75ED7", 0, 1555695633, null, 1555695633, null, "{ }", "Community Use", "Public Buildings", "Shrine of Remembrance", [ null, "-37.8302080020387", "144.973441913623", null, false ] ]
+  , [ "row-6ksd_sp5s.hdgs", "00000000-0000-0000-6418-22AAF3688768", 0, 1555695633, null, 1555695633, null, "{ }", "Residential Accommodation", "Dwelling (House)", "Government House", [ null, "-37.8275635886174", "144.976655130464", null, false ] ]
+  , [ "row-u4uh~99uc-23r2", "00000000-0000-0000-E30B-AE885AE987D3", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Informal Outdoor Facility (Park/Garden/Reserve)", "Royal Botanic Gardens", [ null, "-37.8306631583233", "144.980850432751", null, false ] ]
+  , [ "row-pkyn~gcrb-vb8f", "00000000-0000-0000-A41F-464CA2F8277B", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Informal Outdoor Facility (Park/Garden/Reserve)", "Yarra Park", [ null, "-37.820469374101", "144.986671109615", null, false ] ]
+  , [ "row-en6k_ibiw_57vm", "00000000-0000-0000-FB99-E44FA8141805", 0, 1555695633, null, 1555695633, null, "{ }", "Office", "Office", "Coronial Services Centre of Victoria", [ null, "-37.8243437355246", "144.96447462898", null, false ] ]
+  , [ "row-azc8.pnme-vb3u", "00000000-0000-0000-67AB-7BFAE136B22E", 0, 1555695633, null, 1555695633, null, "{ }", "Office", "Office", "Victorian Insitute of Forensic Medicine", [ null, "-37.8246924089335", "144.964979061564", null, false ] ]
+  , [ "row-kh7e.9xnm-rdqa", "00000000-0000-0000-D1C1-66C8F58BD2DE", 0, 1555695633, null, 1555695633, null, "{ }", "Office", "Office", "Donor Tissue Bank of Victoria", [ null, "-37.8248231859563", "144.965169035668", null, false ] ]
+  , [ "row-vkzb-a5p8~s7j4", "00000000-0000-0000-E5B2-C97BC5142518", 0, 1555695633, null, 1555695633, null, "{ }", "Office", "Office", "State Coroners Office", [ null, "-37.8244982228756", "144.964675254819", null, false ] ]
+  , [ "row-i6ht_bxij.49yg", "00000000-0000-0000-935D-85583D4E2BDB", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Indoor Recreation Facility", "Icehouse", [ null, "-37.8121881194053", "144.935684018873", null, false ] ]
+  , [ "row-ugjj_axhi-f89r", "00000000-0000-0000-0951-6ED43D72C155", 0, 1555695633, null, 1555695633, null, "{ }", "Transport", "Railway Station", "Parliament Railway Station", [ null, "-37.8121572789173", "144.973742010011", null, false ] ]
+  , [ "row-4qw4_dk44.3z6b", "00000000-0000-0000-189A-ADC80731BC77", 0, 1555695633, null, 1555695633, null, "{ }", "Transport", "Railway Station", "Parliament Railway Station", [ null, "-37.8127621113552", "144.973433796529", null, false ] ]
+  , [ "row-a3ac~4dju-s9ib", "00000000-0000-0000-C92D-80D7453F5431", 0, 1555695633, null, 1555695633, null, "{ }", "Transport", "Railway Station", "Parliament Railway Station", [ null, "-37.8095762219384", "144.972330132127", null, false ] ]
+  , [ "row-fwde-f4gx.2czx", "00000000-0000-0000-0B37-E5FA88B6618B", 0, 1555695633, null, 1555695633, null, "{ }", "Transport", "Railway Station", "Flagstaff Railway Station", [ null, "-37.8116384403974", "144.9561186805", null, false ] ]
+  , [ "row-cvvx_dqxa-3kfp", "00000000-0000-0000-FB83-839766A20372", 0, 1555695633, null, 1555695633, null, "{ }", "Transport", "Railway Station", "Melbourne Central Railway Station", [ null, "-37.8097759325888", "144.962670059539", null, false ] ]
+  , [ "row-b8pb~8x34~q8xb", "00000000-0000-0000-4A6B-C93A32529BD9", 0, 1555695633, null, 1555695633, null, "{ }", "Transport", "Railway Station", "Melbourne Central Railway Station", [ null, "-37.8105992402369", "144.96169061383", null, false ] ]
+  , [ "row-vum4-4ff5.2frc", "00000000-0000-0000-9825-A20A7BB48A13", 0, 1555695633, null, 1555695633, null, "{ }", "Transport", "Railway Station", "Melbourne Central Railway Station", [ null, "-37.8108930047401", "144.963100728702", null, false ] ]
+  , [ "row-e5uc.fag8-scig", "00000000-0000-0000-D0BF-770D8D53C6C1", 0, 1555695633, null, 1555695633, null, "{ }", "Transport", "Railway Station", "Flemington Racecourse Railway Station", [ null, "-37.7869105822519", "144.908190706069", null, false ] ]
+  , [ "row-fywn_nnrm-53w9", "00000000-0000-0000-5AFA-D8A5051108DA", 0, 1555695633, null, 1555695633, null, "{ }", "Transport", "Railway Station", "Showgrounds Railway Station (Flemington)", [ null, "-37.7834651216244", "144.914902626775", null, false ] ]
+  , [ "row-vdqg_4279_awvr", "00000000-0000-0000-F20F-28615A51D6E5", 0, 1555695633, null, 1555695633, null, "{ }", "Transport", "Railway Station", "Newmarket Railway Station", [ null, "-37.7872726241965", "144.929059958114", null, false ] ]
+  , [ "row-8pmy.gai2_f7kp", "00000000-0000-0000-7CF8-EAFBC8247677", 0, 1555695633, null, 1555695633, null, "{ }", "Place Of Assembly", "Theatre Live", "Athanaeum Theatre", [ null, "-37.814954347831", "144.96732254212", null, false ] ]
+  , [ "row-4r6i-p2fg-h9u2", "00000000-0000-0000-9A4B-9DF7AFBCAAAD", 0, 1555695633, null, 1555695633, null, "{ }", "Health Services", "Public Hospital", "Alfred Hospital", [ null, "-37.8462631206461", "144.981786260765", null, false ] ]
+  , [ "row-7yus.2xqx.5wsi", "00000000-0000-0000-8B46-F659BD7DC0D3", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Outdoor Recreation Facility (Zoo, Golf Course)", "Riverside Park", [ null, "-37.7948375315825", "144.915607065132", null, false ] ]
+  , [ "row-tcyz~r5d3.iv36", "00000000-0000-0000-161F-8FAB5216412E", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Informal Outdoor Facility (Park/Garden/Reserve)", "Darling Square", [ null, "-37.81299206932", "144.989062559512", null, false ] ]
+  , [ "row-2vfd_sgqi.fuzi", "00000000-0000-0000-4616-8FBF9A324243", 0, 1555695633, null, 1555695633, null, "{ }", "Place Of Assembly", "Theatre Live", "Carlton Courthouse Theatre", [ null, "-37.7976589943217", "144.968750113566", null, false ] ]
+  , [ "row-bs2s~fpty.s8ch", "00000000-0000-0000-3425-4AAB76F6E2C6", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Informal Outdoor Facility (Park/Garden/Reserve)", "Flagstaff Gardens", [ null, "-37.8111222889277", "144.954696055235", null, false ] ]
+  , [ "row-kz37-b9iu_tvdj", "00000000-0000-0000-2C80-8A30F0E2F370", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Outdoor Recreation Facility (Zoo, Golf Course)", "Melbourne Showgrounds", [ null, "-37.7823097850883", "144.910822117306", null, false ] ]
+  , [ "row-6fyk-e4ks~n5xe", "00000000-0000-0000-C256-16623E07CA47", 0, 1555695633, null, 1555695633, null, "{ }", "Education Centre", "Primary Schools", "North Melbourne Primary School", [ null, "-37.7986737155551", "144.951065772876", null, false ] ]
+  , [ "row-88rx.vuuq~w4d8", "00000000-0000-0000-CF6B-0DA995ED868C", 0, 1555695633, null, 1555695633, null, "{ }", "Place Of Assembly", "Theatre Live", "Her Majesty's Theatre", [ null, "-37.8109975612842", "144.969520183129", null, false ] ]
+  , [ "row-5fiw_d6xe~t9q6", "00000000-0000-0000-7846-652236B1BB3D", 0, 1555695633, null, 1555695633, null, "{ }", "Place Of Assembly", "Theatre Live", "Comedy Theatre", [ null, "-37.8102053945163", "144.97013311862", null, false ] ]
+  , [ "row-7682~x8wj.64q7", "00000000-0000-0000-D7B9-B31C2118E3F6", 0, 1555695633, null, 1555695633, null, "{ }", "Place Of Assembly", "Theatre Live", "La Mama Theatre", [ null, "-37.7991304956733", "144.967669503083", null, false ] ]
+  , [ "row-ceua~szqi~xn8f", "00000000-0000-0000-3224-1A706A04FE85", 0, 1555695633, null, 1555695633, null, "{ }", "Industrial", "Industrial (Manufacturing)", "Kraft", [ null, "-37.8262313085528", "144.923475698195", null, false ] ]
+  , [ "row-9h5j.d4df.hsbg", "00000000-0000-0000-D60D-EAD81763F36E", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Informal Outdoor Facility (Park/Garden/Reserve)", "Fawkner Park", [ null, "-37.8413996708186", "144.981625667877", null, false ] ]
+  , [ "row-2qk2-sv5p-mavi", "00000000-0000-0000-C4BF-2043B119E4E5", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Informal Outdoor Facility (Park/Garden/Reserve)", "Fitzroy Gardens", [ null, "-37.8129616331579", "144.980455714669", null, false ] ]
+  , [ "row-z9gc-stsq_3eu8", "00000000-0000-0000-A5C2-858AAAAC4313", 0, 1555695633, null, 1555695633, null, "{ }", "Place Of Assembly", "Art Gallery/Museum", "Sinclair's Cottage", [ null, "-37.8145407488014", "144.980554992725", null, false ] ]
+  , [ "row-qt49-qe9d_mzpq", "00000000-0000-0000-F22B-662CFCC15A94", 0, 1555695633, null, 1555695633, null, "{ }", "Education Centre", "Tertiary (University)", "BIO 21 Institute", [ null, "-37.7978743305343", "144.953780325865", null, false ] ]
+  , [ "row-yep6_mpms_arqv", "00000000-0000-0000-C442-624624B64646", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Informal Outdoor Facility (Park/Garden/Reserve)", "Enterprize Park", [ null, "-37.820210269629", "144.959276859602", null, false ] ]
+  , [ "row-r6md.6b2h~er34", "00000000-0000-0000-0188-91CAC015ED7C", 0, 1555695633, null, 1555695633, null, "{ }", "Place Of Assembly", "Art Gallery/Museum", "Victoria Police Museum", [ null, "-37.8222182774409", "144.954039975197", null, false ] ]
+  , [ "row-fjqg-wbgb-qm5r", "00000000-0000-0000-78B2-486CBFEB1CC8", 0, 1555695633, null, 1555695633, null, "{ }", "Place Of Assembly", "Art Gallery/Museum", "Immigration Museum", [ null, "-37.8191798798062", "144.960426777129", null, false ] ]
+  , [ "row-6zs3-nnbd-4dgg", "00000000-0000-0000-39D9-14ECF78C0AAF", 0, 1555695633, null, 1555695633, null, "{ }", "Place of Worship", "Church", "St Pauls Cathedral", [ null, "-37.8169549012399", "144.967681647402", null, false ] ]
+  , [ "row-6qd2_i4ur-uhin", "00000000-0000-0000-B3FE-14F446CB74FA", 0, 1555695633, null, 1555695633, null, "{ }", "Place Of Assembly", "Theatre Live", "Forum Theatre", [ null, "-37.816485409696", "144.969386556998", null, false ] ]
+  , [ "row-x5x4~44wj~zd78", "00000000-0000-0000-9783-8E13D966B8E7", 0, 1555695633, null, 1555695633, null, "{ }", "Transport", "Railway Station", "Flinders Street Railway Station", [ null, "-37.8179063007545", "144.967064817875", null, false ] ]
+  , [ "row-9hym_srp6.ff98", "00000000-0000-0000-7F5E-CD858BCF616D", 0, 1555695633, null, 1555695633, null, "{ }", "Warehouse/Store", "Store Yard", "Melbourne Wholesale Fish Market", [ null, "-37.8083471006041", "144.930613255612", null, false ] ]
+  , [ "row-rjsy.i5k2-euyq", "00000000-0000-0000-5554-BC0C09871626", 0, 1555695633, null, 1555695633, null, "{ }", "Mixed Use", "Retail/Office/Carpark", "Melbourne Wholesale Fruit, Vegetable & Flower Market", [ null, "-37.80687252157", "144.923287444259", null, false ] ]
+  , [ "row-4jpa-nmf6.j7dd", "00000000-0000-0000-ABC9-CF201CEC21EF", 0, 1555695633, null, 1555695633, null, "{ }", "Place Of Assembly", "Art Gallery/Museum", "Fire Services Museum Victoria", [ null, "-37.8085761281612", "144.975373745366", null, false ] ]
+  , [ "row-s63y.ecrh_e2ia", "00000000-0000-0000-F0DB-8081EDE44076", 0, 1555695633, null, 1555695633, null, "{ }", "Community Use", "Fire Station", "Metropolitan Fire Brigade (MFB)", [ null, "-37.8092318636838", "144.975247619376", null, false ] ]
+  , [ "row-554c-bycv.tvuf", "00000000-0000-0000-05C9-67C7BE552D9C", 0, 1555695633, null, 1555695633, null, "{ }", "Health Services", "Public Hospital", "Royal Melbourne Hospital", [ null, "-37.7993071664096", "144.956389746765", null, false ] ]
+  , [ "row-89f8_6fu6.7qf8", "00000000-0000-0000-487C-8C2B009F5F6F", 0, 1555695633, null, 1555695633, null, "{ }", "Place Of Assembly", "Art Gallery/Museum", "The Ian Potter Museum Of Art", [ null, "-37.7973939595503", "144.964156669702", null, false ] ]
+  , [ "row-t3im~dcz2~hpgz", "00000000-0000-0000-5BD1-DBA13A779088", 0, 1555695633, null, 1555695633, null, "{ }", "Education Centre", "Tertiary (University)", "University of Melbourne", [ null, "-37.7982892284927", "144.96099520158", null, false ] ]
+  , [ "row-tkn6.m7ae-vf8e", "00000000-0000-0000-4518-9C41365984AA", 0, 1555695633, null, 1555695633, null, "{ }", "Place Of Assembly", "Art Gallery/Museum", "Koorie Heritage Trust Inc", [ null, "-37.8133854259085", "144.954027907736", null, false ] ]
+  , [ "row-xjnq_ksn7.nx9n", "00000000-0000-0000-63CB-119B06C014A2", 0, 1555695633, null, 1555695633, null, "{ }", "Community Use", "Public Buildings", "Commonwealth Law Courts", [ null, "-37.8123961677596", "144.955823833257", null, false ] ]
+  , [ "row-r4t6-fp53_fkuk", "00000000-0000-0000-D86C-A032EADF691E", 0, 1555695633, null, 1555695633, null, "{ }", "Education Centre", "Tertiary (University)", "RMIT University", [ null, "-37.8080795360545", "144.964452974798", null, false ] ]
+  , [ "row-cmdx.7uks.kb6v", "00000000-0000-0000-66AF-3C986EA168EF", 0, 1555695633, null, 1555695633, null, "{ }", "Mixed Use", "Retail/Office/Carpark", "Melbourne Central", [ null, "-37.8105371797142", "144.962749729496", null, false ] ]
+  , [ "row-pj8i-cs5c~2emj", "00000000-0000-0000-96DB-71C3D1866E98", 0, 1555695633, null, 1555695633, null, "{ }", "Transport", "Railway Station", "Melbourne Central Railway Station", [ null, "-37.8100167030855", "144.963789344893", null, false ] ]
+  , [ "row-9dnu~d972~qwmm", "00000000-0000-0000-2A5B-5C495EA498CF", 0, 1555695633, null, 1555695633, null, "{ }", "Mixed Use", "Retail/Office/Residential/Carpark", "QV Village", [ null, "-37.8106891897454", "144.965714574014", null, false ] ]
+  , [ "row-us83-aij9.paqd", "00000000-0000-0000-9D5D-700F1435274E", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Informal Outdoor Facility (Park/Garden/Reserve)", "Argyle Square", [ null, "-37.8031480577285", "144.965761295089", null, false ] ]
+  , [ "row-48u5.sqg3_secd", "00000000-0000-0000-A244-9C9E29E2582B", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Informal Outdoor Facility (Park/Garden/Reserve)", "Piazza Italia", [ null, "-37.8025164192523", "144.965863092947", null, false ] ]
+  , [ "row-8636-iqsu.p5tu", "00000000-0000-0000-83E1-AE86C0FADE2D", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Informal Outdoor Facility (Park/Garden/Reserve)", "Macarthur Square", [ null, "-37.7983318676737", "144.971514146104", null, false ] ]
+  , [ "row-hbpp.y3kx~vx4a", "00000000-0000-0000-083F-615A33B9CAE7", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Informal Outdoor Facility (Park/Garden/Reserve)", "Murchinson Square", [ null, "-37.8002735025371", "144.973059252203", null, false ] ]
+  , [ "row-xnjz.k657-rsqi", "00000000-0000-0000-59E9-370EFB134C1C", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Informal Outdoor Facility (Park/Garden/Reserve)", "Parliament Reserve", [ null, "-37.809852620638", "144.973462202839", null, false ] ]
+  , [ "row-zsrr~33cy.zfu2", "00000000-0000-0000-0870-C9055404CA1A", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Major Sports & Recreation Facility", "North Melbourne Recreation Centre (Aquatic)", [ null, "-37.7999470049655", "144.943290801869", null, false ] ]
+  , [ "row-aj4z_7dc2~5un4", "00000000-0000-0000-A1E5-4B61D50F4141", 0, 1555695633, null, 1555695633, null, "{ }", "Office", "Office", "North Melbourne Football Club", [ null, "-37.799771364073", "144.940963510723", null, false ] ]
+  , [ "row-i7bb.8wg5_qh92", "00000000-0000-0000-CFCC-823FE462B32C", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Gymnasium/Health Club", "North Melbourne Recreation Centre (Gymnasium)", [ null, "-37.7997051197931", "144.940368286395", null, false ] ]
+  , [ "row-yurz-e6j3_isw4", "00000000-0000-0000-7A42-A71CB9A6EB27", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Indoor Recreation Facility", "Carlton Baths", [ null, "-37.7934377042609", "144.971696548624", null, false ] ]
+  , [ "row-uxsp-keui~79kz", "00000000-0000-0000-4D59-7E1F4235F012", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Major Sports & Recreation Facility", "City Baths", [ null, "-37.8071585350561", "144.963189789721", null, false ] ]
+  , [ "row-9ayh.zy2a~gzsj", "00000000-0000-0000-1BB5-1FB0DFA1ECBA", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Informal Outdoor Facility (Park/Garden/Reserve)", "Westgate Park", [ null, "-37.8314918578874", "144.908824792698", null, false ] ]
+  , [ "row-6um2~hrpa.dsy2", "00000000-0000-0000-C410-27E448ECA709", 0, 1555695633, null, 1555695633, null, "{ }", "Transport", "Railway Station", "North Melbourne Railway Station", [ null, "-37.8073823625058", "144.942429848025", null, false ] ]
+  , [ "row-9zsy~t28v.f5yx", "00000000-0000-0000-5A63-34A66ECF1BD4", 0, 1555695633, null, 1555695633, null, "{ }", "Place Of Assembly", "Art Gallery/Museum", "Cooks' Cottage", [ null, "-37.8144604899837", "144.979471339826", null, false ] ]
+  , [ "row-j8j5-bt3y_3mgx", "00000000-0000-0000-0AF5-F47F66CF43C2", 0, 1555695633, null, 1555695633, null, "{ }", "Community Use", "Public Buildings", "Conservatory", [ null, "-37.814002127195", "144.9785597431", null, false ] ]
+  , [ "row-imdk_6q7z.2mq4", "00000000-0000-0000-154D-0681C6FC6F67", 0, 1555695633, null, 1555695633, null, "{ }", "Purpose Built", "Aquarium", "Melbourne Aquarium", [ null, "-37.8209627824685", "144.958425696055", null, false ] ]
+  , [ "row-qwsf_g8bv-2yeq", "00000000-0000-0000-0931-F334AB1C1EE6", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Major Sports & Recreation Facility", "Westpac Centre", [ null, "-37.8242456858593", "144.979720306309", null, false ] ]
+  , [ "row-xb9b-zmbh~9549", "00000000-0000-0000-F07E-16969DF4C934", 0, 1555695633, null, 1555695633, null, "{ }", "Place Of Assembly", "Art Gallery/Museum", "Royal Exhibition Building", [ null, "-37.80460262432", "144.971521914952", null, false ] ]
+  , [ "row-t95k.amsw.b4qa", "00000000-0000-0000-63FD-ADF41E9AB190", 0, 1555695633, null, 1555695633, null, "{ }", "Community Use", "Public Buildings", "Melbourne Childrens Court", [ null, "-37.8125077646598", "144.958298873269", null, false ] ]
+  , [ "row-txvs.tasg_jc2w", "00000000-0000-0000-9DBE-24C33A608C02", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Major Sports & Recreation Facility", "Etihad Stadium", [ null, "-37.8161760471742", "144.947496254547", null, false ] ]
+  , [ "row-i8ww_4v27.a8uy", "00000000-0000-0000-7510-D824006B0888", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Observation Tower/Wheel", "Eureka Skydeck 88", [ null, "-37.8216187583314", "144.964622218598", null, false ] ]
+  , [ "row-sgak~kjny_gb9n", "00000000-0000-0000-0B8D-401EFF8A4D21", 0, 1555695633, null, 1555695633, null, "{ }", "Mixed Use", "Retail/Residential", "Eureka Tower", [ null, "-37.8215157539717", "144.964456721965", null, false ] ]
+  , [ "row-t2f3-6max~rq9i", "00000000-0000-0000-F544-AF14B46562D4", 0, 1555695633, null, 1555695633, null, "{ }", "Community Use", "Public Buildings", "County Court Melbourne", [ null, "-37.8132011619962", "144.957734246387", null, false ] ]
+  , [ "row-puwy_7xz9.arpr", "00000000-0000-0000-9B41-A3D5CC715E1A", 0, 1555695633, null, 1555695633, null, "{ }", "Health Services", "Public Hospital", "Peter Maccallum Cancer Institute", [ null, "-37.8114766732026", "144.977400949063", null, false ] ]
+  , [ "row-ia7m.zd5s~fazi", "00000000-0000-0000-7128-64E752C46C37", 0, 1555695633, null, 1555695633, null, "{ }", "Health Services", "Public Hospital", "Royal Dental Hospital", [ null, "-37.7995065904416", "144.964526842767", null, false ] ]
+  , [ "row-5s73.hrb6~xct8", "00000000-0000-0000-6B92-3DDA7975EFAE", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Informal Outdoor Facility (Park/Garden/Reserve)", "Sandridge Rail Bridge", [ null, "-37.8201763042794", "144.96298113724", null, false ] ]
+  , [ "row-gh2c_k5jk~tfmr", "00000000-0000-0000-646C-A4D758BCE913", 0, 1555695633, null, 1555695633, null, "{ }", "Mixed Use", "Retail/Office/Residential/Carpark", "Freshwater Place", [ null, "-37.8219745489446", "144.96246144843", null, false ] ]
+  , [ "row-kwa3_2inv_cauk", "00000000-0000-0000-16E6-BA00E0FDB22D", 0, 1555695633, null, 1555695633, null, "{ }", "Community Use", "Visitor Centre", "Melbourne Visitor Centre", [ null, "-37.8177352402006", "144.967937138226", null, false ] ]
+  , [ "row-wba9~c88v-fyte", "00000000-0000-0000-B152-B06F80C5DA1B", 0, 1555695633, null, 1555695633, null, "{ }", "Place Of Assembly", "Art Gallery/Museum", "Australian Centre For The Moving Image (ACMI)", [ null, "-37.8176107327202", "144.969070431323", null, false ] ]
+  , [ "row-dmb2.gwg4-jwvq", "00000000-0000-0000-D324-CADEAF39AEFF", 0, 1555695633, null, 1555695633, null, "{ }", "Transport", "Bridge", "Webb Bridge", [ null, "-37.8232052384507", "144.947291011905", null, false ] ]
+  , [ "row-47v4.ryc4.exc2", "00000000-0000-0000-18C5-BD61435176FD", 0, 1555695633, null, 1555695633, null, "{ }", "Place Of Assembly", "Function/Conference/Exhibition Centre", "Dallas Brooks Centre", [ null, "-37.8097374138234", "144.981383411592", null, false ] ]
+  , [ "row-6r35~mxay_uyvj", "00000000-0000-0000-9DE9-3F8F809D5FB3", 0, 1555695633, null, 1555695633, null, "{ }", "Education Centre", "School - Primary and Secondary Education", "Melbourne Girls Grammar School", [ null, "-37.8315364518803", "144.985089428348", null, false ] ]
+  , [ "row-uv4f~rfct_irqm", "00000000-0000-0000-2D39-5C6E996E6647", 0, 1555695633, null, 1555695633, null, "{ }", "Retail", "Department Store", "Myer", [ null, "-37.8135911985281", "144.963855087868", null, false ] ]
+  , [ "row-2zdt.hvb9~ungv", "00000000-0000-0000-EF47-F51AE50A5D4E", 0, 1555695633, null, 1555695633, null, "{ }", "Retail", "Department Store", "David Jones", [ null, "-37.8133127260638", "144.964373486798", null, false ] ]
+  , [ "row-tzpe_5rpf~evdr", "00000000-0000-0000-43E3-AC564CCB4E94", 0, 1555695633, null, 1555695633, null, "{ }", "Leisure/Recreation", "Informal Outdoor Facility (Park/Garden/Reserve)", "Lincoln Square", [ null, "-37.8027919689732", "144.962760852233", null, false ] ]
+  , [ "row-n582-8n5q~53sk", "00000000-0000-0000-106B-CB45FF656602", 0, 1555695633, null, 1555695633, null, "{ }", "Health Services", "Private Hospital", "Epworth Freemasons Hospital", [ null, "-37.8109710654051", "144.98370007659", null, false ] ]
+  , [ "row-iqz2_wqf8_frd5", "00000000-0000-0000-5113-EBE68928A792", 0, 1555695633, null, 1555695633, null, "{ }", "Residential Accommodation", "Dwelling (House)", "Bishopscourt", [ null, "-37.8132921649416", "144.98350690799", null, false ] ]
+  , [ "row-hfsy-xyes~wy9b", "00000000-0000-0000-6CAE-D492DC3C3F8E", 0, 1555695633, null, 1555695633, null, "{ }", "Health Services", "Medical Services", "Mercy Private Hospital", [ null, "-37.811896809802", "144.984435746587", null, false ] ]
+  , [ "row-q4fs_4dt4.6mby", "00000000-0000-0000-5E41-0D56956BBDAF", 0, 1555695633, null, 1555695633, null, "{ }", "Place Of Assembly", "Art Gallery/Museum", "The Museum Of Australian Chinese History", [ null, "-37.8107686127655", "144.96923385414", null, false ] ]
+  , [ "row-5skh_7283-xj9x", "00000000-0000-0000-6331-3A27137019B4", 0, 1555695633, null, 1555695633, null, "{ }", "Mixed Use", "Retail/Office/Carpark", "ANZ 'Gothic' Bank", [ null, "-37.8161580666029", "144.961673719242", null, false ] ]
+   ]
+  }

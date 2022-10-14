@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+body {
+  text-align:center;
+  background:linear-gradient(141deg, #ccc 25%, #eee 40%, #ddd 55%);
+  color:#555;
+  font-family:'Roboto';
+  font-weight:300;
+  font-size:32px;
+  padding-top:40vh;
+  height:100vh;
+  overflow:hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  -webkit-transform: translate3d(0,0,0);
+}
+
+div {
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
+}
+
+div:first-of-type {    /* For increasing performance 
+                       ID/Class should've been used. 
+                       For a small demo 
+                       it's okaish for now */
+  animation: showup 7s infinite;
+}
+
+div:last-of-type {
+  width:0px;
+  animation: reveal 7s infinite;
+}
+
+div:last-of-type span {
+  margin-left:-355px;
+  animation: slidein 7s infinite;
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:355px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:355px;}
+}
+
+
+p {
+  font-size:12px;
+  color:#999;
+  margin-top:200px;
+}
+#screen1{
+	height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    background-image: url(Images/bg2.jpg);
+    background-size: 100% 100%;
+}
+
+.mask{
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: inherit;
+    overflow: hidden;
+    overflow-x: hidden;
+    background: rgb(46, 33, 49, 0.2);
+}
+.navbar1 {
+   overflow: hidden;
+   background-color: #95a792;
+   top: 0;
+   width: 100%;
+   opacity: 0.95;
+   padding: 15px 5px 0px 15px;
+}
+
+
+#group-mem-names{
+	text-align: center;
+	color: #e3d9ca;
+	font-family: Questrial;
+	letter-spacing: 6px;
+	font-size: 16px;
+}
+
+#menu-bar{
+	background-color: #d2d3c9;
+}
+
+.menu-items{
+	text-align: center;
+	color: #fff;
+	font-family: 'Questrial';
+	font-size: 20px;
+  	letter-spacing: 2px;
+  	text-transform: uppercase;
+}
+
+.menu-items:hover{
+	color: #E58910;
+
+}
+
+.title-design{
+	color: #375511;
+	font-family: 'Teko';
+	font-size: 35px;
+  	letter-spacing: 3px;
+  	background: #95a792;
+  	padding: 5px 10px;
+  }
+
+.ana-text{
+	background: #95a792;
+	font-family: 'Questrial';
+	color: #403f48;
+	padding: 10px 20px;
+	margin-left: 15px;
+	letter-spacing: 0.5px;
+	opacity:0.95;
+}
+
+.ana-viz{
+	background: #888888;
+	padding: 10px 20px;
+	margin-left: 15px;
+	opacity:0.8;
+
+}
+
+#screen1-5{
+	padding-top: 20px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 20px;
+    text-align: center;
+    background: #d2d3c9;
+}
+
+.light-guide{
+	text-align:left;
+	color: #fff;
+	font-family: 'Teko';
+	font-weight:700;
+	left: 0px;
+	position:relative;
+	display:block;
+	width:50%;
+	float:left;
+}
+
+.volume-guide{
+	text-align:right;
+	color: #fff;
+	font-family: 'Teko';
+	font-weight:400;
+	right: 0px;
+	position:relative;
+	display:block;
+	width:50%;
+	float: right;
+    margin: 3vh 5vh 3vh 0vh;
+    font-size: 20px;
+	z-index: 20;
+}
+
+.volume-guide:hover{
+	font-weight:550;
+}
+
+#screen2{
+    text-align: center;
+    background: #d2d3c9;
+	height: 130vh;
+}
+
+#screen3{
+	text-align:center;
+    background: #49393B;
+}
+
+#menu-bar a {
+	color: #847b6d;
+	text-decoration: none;
+	font-weight: 200;
+} 
+
+#menu-bar a:hover {
+	color: #fff;
+	text-decoration: underline;
+} 
+
+#toTop {
+	display: none;
+	text-decoration: none;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	overflow: hidden;
+	width: 32px;
+	height:32px;
+	border: none;
+	text-indent: 100%;
+	background: url(Images/move-up.png) no-repeat right top;
+	z-index: 10;
+}
+
+#footer {
+	color: #696969;
+	font-family: 'Teko';
+	font-size: 16px;
+  	letter-spacing: 3px;
+  	background: #403f48;
+	text-align: center;
+	line-height: 2px;
+	padding: 1% 0 0 0;
+}
+
+.footer-info {
+	text-align: center;
+	line-height: 2px;
+	margin-top: 30px;
+}
+
+.copy-right {
+	text-align: center;
+	line-height: 2px;
+	margin-top: 70px;
+	vertical-align: baseline;
+	color: #696969;
+    font-size: 1em;
+    padding-bottom: 1%;
+}
+
+.nav-container {
+	height:580px;
+}
+
+.weather-wdiget{
+	margin-right: 15px;
+}
+.images-slider{
+}
+
+#left-bottom {
+	display: none;
+	text-decoration: none;
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+	overflow: hidden;
+	width: 32px;
+	height:32px;
+	border: none;
+	text-indent: 100%;
+	background: url(Images/domain.png) no-repeat right top;
+}
+#left-bottom:hover {
+	transform: rotate(10deg) scale(1.1,1.1);;
+	-ms-transform: rotate(10deg) scale(1.1,1.1);		/* IE 9 */
+	-webkit-transform: rotate(10deg) scale(1.1,1.1);	/* Safari and Chrome */
+	-o-transform: rotate(10deg) scale(1.1,1.1);		/* Opera */
+	-moz-transform: rotate(10deg) scale(1.1,1.1);		/* Firefox */
+
+}
+
+hr{
+	width:90%;
+	border-top: 2px solid rgb(144 136 124);
+	margin-top: 0rem;
+}
+.stats-text{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	background-color: #d2d3c9;
+	font-family: 'Questrial';
+	color: #403f48;
+	padding: 5px 10px;
+	text-align: left;
+}
+
+.stats-row{
+	padding: 10px;
+}
+
+.stats-title{
+	color: #375511;
+    font-weight: 200;
+    font-family: 'Questrial';
+    letter-spacing: 2px;
+  	text-transform: uppercase;
+  	font-size: 2.2vw;
+  	padding-top: 4vw;
+  	padding-bottom: 10px;
+
+}
+
+.stats-minititle{
+	color: #847b6d;
+    font-weight: 200;
+    font-family: 'Questrial';
+    letter-spacing: 1px;
+  	text-transform: uppercase;
+  	font-size: 1.3vw;
+  	padding-top: 2vw;
+  	padding-bottom: 1.4vw;
+}
+
+
+.stats-mask{
+	background-color: #e3d9ca;
+}
+
+.tableu-centre{
+	display: flex; 
+	justify-content: center;
+}
+
+.sub-title{
+	color: #847b6d;
+    font-weight: 200;
+    font-family: 'Teko';
+    letter-spacing: 0.6vw;
+    text-transform: uppercase;
+    font-size: 2.8vw;
+    padding: 4vw 0 5vw 5vw;
+
+}
+
+.participate-title{
+	color: #375511;
+	font-family: 'Questrial';
+	font-size: 2vw;
+	margin: 2vw 0 1vw 0;
+	text-align: center;
+}
+
+.participate-text{
+	color: #403f48;
+    text-align: left;
+    font-family: 'Questrial';
+    font-size: 1.2vw;
+    margin: 1vw 0 5vw 0;
+    padding: 1.5vw 1vw;
+    background-color: #d2d3c9;
+
+}
+
+.divider{
+	background-color: #403f48;
+	padding-top: 1vw;
+}
