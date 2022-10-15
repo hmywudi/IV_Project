@@ -1,8 +1,8 @@
 const config = {
-  style: "mapbox://styles/mapbox/light-v10",
+  style: "mapbox://styles/mapbox/streets-v10",
   accessToken:
     "pk.eyJ1IjoibWFwYm94LWNvbW11bml0eSIsImEiOiJja2tkN21jcjAwMG51MnBxdHAxemdueGpzIn0.e0IzLkytGq4pcGGieP8KNA",
-  CSV: "./data/Hotel_V2.csv",
+  CSV: "./data/Assignment_3_Data_V1.csv",
   center: [144.95906,-37.81723],
   zoom: 10,
   title: "Replace with your title",
@@ -13,21 +13,22 @@ const config = {
   filters: [
     {
       type: "checkbox",
-      title: "categories: ",
-      columnHeader: "categories/0",
+      title: "Categories:",
+      columnHeader: "categoryName",
       listItems: [
         "Hotel",
+        "Hostel",
         "Serviced accommodation",
-        "Indoor accommodation",
-        "Extended stay hotel",
-        "Sports bar"
+        "Bar",
+        "Restaurant & Bar",
+        "Cafe",
+        "Takeout Restaurant",
+        "Shopping mall",
+        "Garden & Park",
+        "Art, Museum & Theater",
+        "Tourist attraction",
+        "Zoo & Aquarium"
       ],
-    },
-    {
-      type: "checkbox",
-      title: "Devices available: ",
-      columnHeader: "Devices_available", // Case sensitive - must match spreadsheet entry
-      listItems: ["Computer", "Wi-Fi", "Adaptive Laptops"], // Case sensitive - must match spreadsheet entry; This will take up to six inputs but is best used with a maximum of three;
     }
   ],
 };

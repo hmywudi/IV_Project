@@ -1,4 +1,7 @@
 /* eslint-disable strict */
+
+import myImage from './icon/Art.svg';
+
 mapboxgl.accessToken = config.accessToken;
 const columnHeaders = config.sideBarInfo;
 
@@ -365,7 +368,7 @@ const geocoder = new MapboxGeocoder({
   accessToken: mapboxgl.accessToken, // Set the access token
   mapboxgl: mapboxgl, // Set the mapbox-gl instance
   marker: true, // Use the geocoder's default marker style
-  zoom: 11,
+  zoom: 15,
 });
 
 function sortByDistance(selectedPoint) {
@@ -427,6 +430,10 @@ map.on("load", function () {
     });
   });
 
+  map.loadImage(myImage, (error, image) => {
+  if (error) throw error;
+  map.addImage('Art.svg', image);
+  });
   function makeGeoJSON(csvData) {
     csv2geojson.csv2geojson(
       csvData,
@@ -444,7 +451,7 @@ map.on("load", function () {
         // Add the the layer to the map
         map.addLayer({
           id: "locationData",
-          type: "circle",
+          type: "symbol",
           source: {
             type: "geojson",
             data: geojsonData,
@@ -477,7 +484,7 @@ map.on("load", function () {
     map.on("mouseleave", "locationData", function () {
       map.getCanvas().style.cursor = "";
     });
-    // buildLocationList(geojsonData);
+    buildLocationList(geojsonData);
   }
 });
 
