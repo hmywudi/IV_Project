@@ -4,10 +4,10 @@ const config = {
     "pk.eyJ1IjoibWFwYm94LWNvbW11bml0eSIsImEiOiJja2tkN21jcjAwMG51MnBxdHAxemdueGpzIn0.e0IzLkytGq4pcGGieP8KNA",
   CSV: "./data/Assignment_3_Data_V1.csv",
   center: [144.95906,-37.81723],
-  zoom: 10,
-  title: "Replace with your title",
+  zoom: 12,
+  title: "Melbourne tourist guide",
   description:
-    "Replace with information about your application. Ex. You can search by address to sort the list below by distance. You can also filter the list by language support options, which days a location is open, and whether they have devices to use to complete the survey by phone or online.",
+    "Choose the categories to see their location on the map.Choose the categories to see their location on the map.Choose the categories to see their location on the map.",
   sideBarInfo: ["name", "address", "phone"],
   popupInfo: ["name"],
   filters: [

@@ -1,7 +1,4 @@
 /* eslint-disable strict */
-
-import myImage from './icon/Art.svg';
-
 mapboxgl.accessToken = config.accessToken;
 const columnHeaders = config.sideBarInfo;
 
@@ -26,13 +23,13 @@ function flyToLocation(currentFeature) {
   });
 }
 
-function createPopup(currentFeature) {
+function createPopup(e) {
   const popups = document.getElementsByClassName("mapboxgl-popup");
   /** Check if there is already a popup on the map and if so, remove it */
   if (popups[0]) popups[0].remove();
   const popup = new mapboxgl.Popup({ closeOnClick: true })
-    .setLngLat(currentFeature.geometry.coordinates)
-    .setHTML("<h3>" + currentFeature.properties[config.popupInfo] + "</h3>")
+    .setLngLat(e.geometry.coordinates)
+    .setHTML('<b><a href ="' + e.properties.website + '"class=popupname>' + e.properties.name + '</a></b>  <p class=popupdesc>' + e.properties.Description + '</p>')
     .addTo(map);
 }
 
@@ -429,11 +426,6 @@ map.on("load", function () {
       },
     });
   });
-
-  map.loadImage(myImage, (error, image) => {
-  if (error) throw error;
-  map.addImage('Art.svg', image);
-  });
   function makeGeoJSON(csvData) {
     csv2geojson.csv2geojson(
       csvData,
@@ -451,7 +443,7 @@ map.on("load", function () {
         // Add the the layer to the map
         map.addLayer({
           id: "locationData",
-          type: "symbol",
+          type: "circle",
           source: {
             type: "geojson",
             data: geojsonData,
