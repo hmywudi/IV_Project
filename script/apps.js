@@ -405,6 +405,9 @@ geocoder.on("result", function (ev) {
   sortByDistance(searchResult);
 });
 
+const layerIDs = []; // This array will contain a list used to filter against.
+const filterGroup = document.getElementById('filter-group');
+
 map.on("load", function () {
   map.addControl(geocoder, "top-right");
 
@@ -426,21 +429,30 @@ map.on("load", function () {
       },
     });
   });
+
   function makeGeoJSON(csvData) {
     csv2geojson.csv2geojson(
       csvData,
       {
-        latfield: "location/lat",
-        lonfield: "location/lng",
+        latfield: "latitude",
+        lonfield: "longitude",
         delimiter: ",",
       },
       function (err, data) {
         data.features.forEach(function (data, i) {
           data.properties.id = i;
+          console.log(data)
         });
 
         geojsonData = data;
+
+        map.addSource('pois', {
+          'type': 'geojson',
+          'data': geojsonData
+          });
+      
         // Add the the layer to the map
+
         map.addLayer({
           id: "locationData",
           type: "circle",
@@ -450,12 +462,51 @@ map.on("load", function () {
           },
           paint: {
             "circle-radius": 5, // size of circles
-            "circle-color": "#3D2E5D", // color of circles
-            "circle-stroke-color": "white",
-            "circle-stroke-width": 1,
-            "circle-opacity": 0.7,
-          },
+            "circle-opacity": 0,
+          }
         });
+
+        for (const feature of geojsonData.features) {
+          const symbol = feature.properties.icon;
+          const layerID = `poi-${symbol}`;
+           
+          // Add a layer for this symbol type if it hasn't been added already.
+          if (!map.getLayer(layerID)) {
+          map.addLayer({
+          id: layerID,
+          type: 'symbol',
+          source: 'pois',
+          layout: {
+          "icon-image": `${symbol}-15`,
+          "icon-allow-overlap": true
+          },
+          filter: ['==', 'icon', symbol]
+          });
+
+          layerIDs.push(layerID);
+           
+          // Add checkbox and label elements for the layer.
+          const input = document.createElement('input');
+          input.type = 'checkbox';
+          input.id = layerID;
+          input.checked = true;
+          filterGroup.appendChild(input);
+           
+          const label = document.createElement('label');
+          label.setAttribute('for', layerID);
+          label.textContent = symbol;
+          filterGroup.appendChild(label);
+           
+          // When the checkbox changes, update the visibility of the layer.
+          input.addEventListener('change', (e) => {
+          map.setLayoutProperty(
+          layerID,
+          'visibility',
+          e.target.checked ? 'visible' : 'none'
+          );
+          });
+          }
+          }
       }
     );
 
