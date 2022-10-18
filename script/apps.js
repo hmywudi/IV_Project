@@ -29,8 +29,28 @@ function createPopup(e) {
   if (popups[0]) popups[0].remove();
   const popup = new mapboxgl.Popup({ closeOnClick: true })
     .setLngLat(e.geometry.coordinates)
-    .setHTML('<b><a href ="' + e.properties.website + '"class=popupname>' + e.properties.name + '</a></b>  <p class=popupdesc>' + e.properties.Description + '</p>')
+    .setHTML(`<b><a href =" ${e.properties.website} "class=popupname> ${e.properties.name} </a></b>  
+              <p class=popupdesc> ${ e.properties.phone} </p>
+              <div class="my-rating" data-rating="${e.properties.totalScore}"></div>
+              <script src="jquery.star-rating-svg.js"></script>
+            `)
     .addTo(map);
+  
+  $(function() {          
+      // basic use comes with defaults values
+    $(".my-rating").starRating({
+        initialRating: e.properties.totalScore,
+        totalStars: 5,
+        starShape: 'rounded',
+        starSize: 25,
+        emptyColor: 'lightgray',
+        hoverColor: 'salmon',
+        activeColor: 'cornflowerblue',
+        useGradient: false,
+        readOnly:true,
+        disableAfterRate: true
+      });
+  });
 }
 
 function buildLocationList(locationData) {
@@ -478,7 +498,7 @@ map.on("load", function () {
           source: 'pois',
           layout: {
           "icon-image": `${symbol}-15`,
-          "icon-allow-overlap": true
+          "icon-allow-overlap": false
           },
           filter: ['==', 'icon', symbol]
           });
@@ -548,6 +568,7 @@ exitButton.addEventListener("click", () => {
 const title = document.getElementById("title");
 title.innerText = config.title;
 const description = document.getElementById("description");
+//description.innerHTML = "<img src = ' sdsd' />"
 description.innerText = config.description;
 
 function transformRequest(url, resourceType) {

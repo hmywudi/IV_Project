@@ -8,26 +8,47 @@ const config = {
   title: "Melbourne tourist guide",
   description:
     "Choose the categories to see their location on the map.Choose the categories to see their location on the map.Choose the categories to see their location on the map.",
-  sideBarInfo: ["name", "address", "phone"],
+  sideBarInfo: ["name", "categoryName","address", "phone"],
   popupInfo: ["name"],
-  filters: [
-    {
-      type: "checkbox",
-      title: "Categories:",
-      columnHeader: "categoryName",
-      listItems: [
-        "Hotel",
-        "Hostel",
-        "Serviced accommodation",
-        "Bar",
-        "Restaurant & Bar",
-        "Cafe",
-        "Takeout Restaurant",
-        "Shopping mall",
-        "Garden & Park",
-        "Tourist attraction",
-        "Zoo & Aquarium"
-      ],
-    }
-  ],
+//   filters: [
+//     {
+//       type: "checkbox",
+//       title: "Categories:",
+//       columnHeader: "categoryName",
+//       listItems: [
+//         "Hotel",
+//         "Hostel",
+//         "Serviced accommodation",
+//         "Bar",
+//         "Restaurant & Bar",
+//         "Cafe",
+//         "Takeout Restaurant",
+//         "Shopping mall",
+//         "Garden & Park",
+//         "Tourist attraction",
+//         "Zoo & Aquarium"
+//       ],
+//     }
+//   ],
+// };
+filters: [
+  {
+    type: "checkbox",
+    title: "Categories:",
+    columnHeader: "icon",
+    listItems: [
+      "lodging",
+      "bar",
+      "Serviced accommodation",
+      "Bar",
+      "Restaurant & Bar",
+      "Cafe",
+      "Takeout Restaurant",
+      "Shopping mall",
+      "Garden & Park",
+      "Tourist attraction",
+      "Zoo & Aquarium"
+    ],
+  }
+],
 };
