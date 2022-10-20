@@ -37,7 +37,7 @@ filters: [
     title: "Categories:",
     columnHeader: "icon",
     listItems: [
-      "lodging",
+      "Hotel",
       "bar",
       "Serviced accommodation",
       "Bar",

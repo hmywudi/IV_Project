@@ -29,8 +29,8 @@ function createPopup(e) {
   if (popups[0]) popups[0].remove();
   const popup = new mapboxgl.Popup({ closeOnClick: true })
     .setLngLat(e.geometry.coordinates)
-    .setHTML(`<b><a href =" ${e.properties.website} "class=popupname> ${e.properties.name} </a></b>  
-              <p class=popupdesc> ${ e.properties.phone} </p>
+    .setHTML(`<b><a href =" ${e.properties.website} "class=popupname> ${e.properties.name} </a></b>                
+              <p class=popupdesc> ${e.properties.totalScore} (${e.properties.reviewsCount})</p>
               <div class="my-rating" data-rating="${e.properties.totalScore}"></div>
               <script src="jquery.star-rating-svg.js"></script>
             `)
@@ -377,9 +377,9 @@ function removeFiltersButton() {
 }
 
 createFilterObject(config.filters);
-applyFilters();
-filters(config.filters);
-removeFiltersButton();
+// applyFilters();
+// filters(config.filters);
+// removeFiltersButton();
 
 const geocoder = new MapboxGeocoder({
   accessToken: mapboxgl.accessToken, // Set the access token
@@ -551,19 +551,19 @@ map.on("load", function () {
   }
 });
 
-// Modal - popup for filtering results
-const filterResults = document.getElementById("filterResults");
-const exitButton = document.getElementById("exitButton");
+// // Modal - popup for filtering results
+// const filterResults = document.getElementById("filterResults");
+// const exitButton = document.getElementById("exitButton");
 const modal = document.getElementById("modal");
 
-filterResults.addEventListener("click", () => {
-  modal.classList.remove("hide-visually");
-  modal.classList.add("z5");
-});
+// filterResults.addEventListener("click", () => {
+//   modal.classList.remove("hide-visually");
+//   modal.classList.add("z5");
+// });
 
-exitButton.addEventListener("click", () => {
-  modal.classList.add("hide-visually");
-});
+// exitButton.addEventListener("click", () => {
+//   modal.classList.add("hide-visually");
+// });
 
 const title = document.getElementById("title");
 title.innerText = config.title;
