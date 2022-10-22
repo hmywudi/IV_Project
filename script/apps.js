@@ -486,6 +486,18 @@ map.on("load", function () {
           }
         });
 
+        const labelsMap = new Map([
+          ["poi-lodging", 'Hotel'],
+          ["poi-bar", 'Bar'],
+          ["poi-restaurant", "Restaurant"],
+          ["poi-cafe", 'Cafe'],
+          ["poi-museum", 'Tourist Attraction'],
+          ["poi-park", 'Garden & Park'],
+          ["poi-grocery", 'Shopping Mall'],
+          ["poi-library", 'Library'],
+          ["poi-zoo", 'Zoo & Aquarium'],
+        ]);
+
         for (const feature of geojsonData.features) {
           const symbol = feature.properties.icon;
           const layerID = `poi-${symbol}`;
@@ -514,7 +526,7 @@ map.on("load", function () {
            
           const label = document.createElement('label');
           label.setAttribute('for', layerID);
-          label.textContent = symbol;
+          label.textContent = labelsMap.get(layerID);
           filterGroup.appendChild(label);
            
           // When the checkbox changes, update the visibility of the layer.
