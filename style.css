@@ -75,7 +75,7 @@
 }
 
 .mapboxgl-popup-content {
-    font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
+    font: 400 15px/22px "Open Sans", sans-serif;
     text-align: center;
     padding: 5;
     width: 180px;
@@ -110,15 +110,15 @@
 }
 /* box on the right */
 .filter-group {
-    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font: 12px/20px "Open Sans", sans-serif;
     font-weight: 600;
     position: absolute;
-    top: 50px;
+    top: 10px;
     right: 10px;
     z-index: 1;
     border-radius: 3px;
     width: 135px;
-    color: #fff;
+    color: rgb(85, 77, 77);
     }
      
     .filter-group input[type='checkbox']:first-child + label {
@@ -135,7 +135,7 @@
     }
      
     .filter-group input[type='checkbox'] + label {
-    background-color: #3386c0;
+    background-color: #ffffff;
     display: block;
     cursor: pointer;
     padding: 10px;
@@ -143,13 +143,13 @@
     }
      
     .filter-group input[type='checkbox'] + label {
-    background-color: #3386c0;
+    background-color: #ffffff;
     text-transform: capitalize;
     }
      
     .filter-group input[type='checkbox'] + label:hover,
     .filter-group input[type='checkbox']:checked + label {
-    background-color: #4ea0da;
+    background-color: #ffffff;
     }
      
     .filter-group input[type='checkbox']:checked + label:before {

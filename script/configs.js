@@ -1,7 +1,7 @@
 const config = {
-  style: "mapbox://styles/mapbox/streets-v10",
+  style: "mapbox://styles/haoyenlei/cl7494las000415o8prl5l11z",
   accessToken:
-    "pk.eyJ1IjoibWFwYm94LWNvbW11bml0eSIsImEiOiJja2tkN21jcjAwMG51MnBxdHAxemdueGpzIn0.e0IzLkytGq4pcGGieP8KNA",
+    "pk.eyJ1IjoiaGFveWVubGVpIiwiYSI6ImNsNzMweWdmbjEzZjIzb21qNG9pZno3eGkifQ.dEp4py09M6XAC0hNuneTUg",
   CSV: "./data/Assignment_3_Data_V1_icons.csv",
   center: [144.95906,-37.81723],
   zoom: 12,

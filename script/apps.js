@@ -429,7 +429,7 @@ const layerIDs = []; // This array will contain a list used to filter against.
 const filterGroup = document.getElementById('filter-group');
 
 map.on("load", function () {
-  map.addControl(geocoder, "top-right");
+  map.addControl(geocoder, "top-left");
 
   // csv2geojson - following the Sheet Mapper tutorial https://www.mapbox.com/impact-tools/sheet-mapper
   console.log("loaded");
@@ -491,10 +491,9 @@ map.on("load", function () {
           ["poi-bar", 'Bar'],
           ["poi-restaurant", "Restaurant"],
           ["poi-cafe", 'Cafe'],
-          ["poi-museum", 'Tourist Attraction'],
+          ["poi-landmark", 'Tourist Attraction'],
           ["poi-park", 'Garden & Park'],
           ["poi-grocery", 'Shopping Mall'],
-          ["poi-library", 'Library'],
           ["poi-zoo", 'Zoo & Aquarium'],
         ]);
 
@@ -509,8 +508,8 @@ map.on("load", function () {
           type: 'symbol',
           source: 'pois',
           layout: {
-          "icon-image": `${symbol}-15`,
-          "icon-allow-overlap": false
+          "icon-image": `${symbol}`,
+          "icon-allow-overlap": false,
           },
           filter: ['==', 'icon', symbol]
           });
