@@ -8,7 +8,7 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.5;
+    line-height: 1.2;
 }
 /* ##################################### */
 
@@ -38,7 +38,7 @@ nav{
     justify-content: space-between;
 }
 .logo{
-    width: 5.5rem;
+    width: 5rem;
 }
 nav ul li{
     list-style: none;
@@ -69,7 +69,7 @@ nav ul li:hover:after{
     text-align: left;
 }
 .content h1{
-    font-size: 5.5rem;
+    font-size: 5rem;
     color: #fff;
     font-weight: 700;  
     transition: 0.5s; 
@@ -79,21 +79,21 @@ nav ul li:hover:after{
     color: transparent;
 }
 .content p{
-    font-size: 1.24rem;
+    font-size: 1.08rem;
     color: #fff;
     font-weight: 300;  
     font-family: 'Roboto', sans-serif;
-    margin-top: 40px;
+    margin-top: 1.6rem;
 }
 .content a{
     text-decoration: none;
     display: inline-block;
     color: #fff;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     border: 0.12rem solid #fff;
     padding: 0.5rem 3rem;
     border-radius: 50px;
-    margin-top: 20px;
+    margin-top: 1.5rem;
 }
 .content a:hover{
     border: 0.125rem solid rgba(215,215,215);
@@ -175,13 +175,13 @@ nav ul li:hover:after{
     flex-basis: 100%;
 }
 .col h1{
-    font-size: 5rem;
+    font-size: 4.2rem;
     color: #fff;
     font-weight: 700;  
 }
 .col p{
     margin-top: 10px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #fff;
     font-weight: 300;  
     font-family: 'Roboto', sans-serif;
@@ -189,12 +189,12 @@ nav ul li:hover:after{
 button{
     display: inline-block;
     color: #fff;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     padding: 12px 70px;
     border: 0.12rem solid #fff;
     border-radius: 50px;
     outline: none;
-    margin-top: 30px;
+    margin-top: 1.5rem;
     background-color: transparent;
 }
 button:hover{
@@ -218,12 +218,12 @@ button:hover{
 .container2{
     width: 100%;
     height: 100%;
-    margin-right: 8%;
     display: flex;
     align-items: center;
     justify-content: right;
     box-sizing: border-box;
-    margin-right: 21%;
+    margin-right: 20%;
+    margin-bottom: 6%;
 }
 .card {
     height: 38vh;
@@ -253,7 +253,7 @@ button:hover{
 h5{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 h6{
     font-family: Arial, Helvetica, sans-serif;
@@ -278,6 +278,8 @@ h6{
 }
 
 /* ##################################### */
+/* --------------------------------------------------------------------------------------------- */
+
 
 
 
