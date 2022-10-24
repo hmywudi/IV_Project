@@ -7,7 +7,7 @@ const config = {
   zoom: 12,
   title: "Melbourne tourist guide",
   description:
-    "Choose the categories to see their location on the map.Choose the categories to see their location on the map.Choose the categories to see their location on the map.",
+  "A one-shop interactive map platform to navigate and explores hotels, restaurants, cafes bars, shops and attractions based on top Google reviews.",
   sideBarInfo: ["name", "categoryName","address", "phone"],
   popupInfo: ["name"],
 //   filters: [
