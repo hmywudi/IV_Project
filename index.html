@@ -1,344 +1,39 @@
-<!DOCTYPE HTML>
-<!--
-	Minimaxing by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<script src='https://api.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.js'></script>
-		<link href='https://api.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.css' rel='stylesheet' />
-		<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
-		<link
-			rel="stylesheet"
-			href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.css"
-			type="text/css"
-		/>
-		<script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.0/mapbox-gl-geocoder.min.js'></script>
-		<link 
-			rel='stylesheet' 
-			href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.0/mapbox-gl-geocoder.css' 
-			type='text/css' 
-		/>
-		<title>Minimaxing by HTML5 UP</title>
-		<style>
-		
-		
-			#map {
-			  height: 100vh;
-			  width: 63vw;
-			}
-		</style>
-		<script src="assets/js/script.js" defer></script>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body>
-		<div id="page-wrapper">
-
-			<!-- Header -->
-				<div id="header-wrapper">
-					<div class="container">
-						<div class="row">
-							<div class="col-12">
-
-								<header id="header">
-									<h1><a href="index.html" id="logo">Minimaxing</a></h1>
-									<nav id="nav">
-										<a href="index.html" class="current-page-item">Homepage</a>
-										<a href="twocolumn1.html">Two Column #1</a>
-										<a href="twocolumn2.html">Two Column #2</a>
-										<a href="onecolumn.html">One Column</a>
-										<a href="threecolumn.html">Three Column</a>
-									</nav>
-								</header>
-
-							</div>
-						</div>
-					</div>
-				</div>
-
-			<!-- Banner -->
-				<div id="banner-wrapper">
-					<div class="container">
-
-						<body>
-							<div class='flex-parent viewport-full relative scroll-hidden'>
-								<div class='flex-child w-full w360-ml absolute static-ml left bottom'>
-									<div class='flex-parent flex-parent--column viewport-third bg-white'>
-										<div class='flex-child flex-child--grow'>
-											<div id="sidebarA"
-												class="flex-parent flex-parent--column-ml flex-parent--center-main theme py12 px12 ">
-												<h3 id='title' class='txt-l-ml txt-m txt-bold mb6 mr0-ml mr24 align-center block'>
-												</h3>
-												<p id='description' class='txt-s py12 none block-ml'>
-												</p>
-												<div class="flex-parent flex-parent--center-main relative-ml absolute right top mt0-ml mt6">
-													<button id='filterResults' class='txt-bold btn btn--stroke mr0-ml mr12 px18-ml px6'>
-														<svg class='icon inline-block align-middle h24 w24'>
-															<use xlink:href='#icon-filter' /></svg>
-														<p class="inline-block-ml align-middle remove none">Show Filters</p>
-													</button>
-												</div>
-						
-						
-											</div>
-											<div id="listings" class="flex-child viewport-twothirds py12 px12 listings scroll-auto"></div>
-						
-										</div>
-									</div>
-								</div>
-								<div class='flex-child flex-child--grow w-auto viewport-full-ml viewport-twothirds' id='map'>
-						
-								</div>
-						
-								<div id='modal'
-									class='absolute top right bottom left scroll-auto hide-visually flex-parent flex-parent--center-main mt120-ml'>
-									<div class='pt36'>
-										<div class='flex-child bg-white round relative scroll-auto'>
-											<button id='exitButton' class='absolute top right px12 py12'>
-												<svg class='icon link color-darken50'>
-													<use xlink:href='#icon-close'></use>
-												</svg>
-											</button>
-											<div class='px24 py24'>
-												<form id="filters"></form>
-												<div class='align-center py12'></div>
-												<div class="flex-parent flex-parent--center-main">
-													<button id="removeFilters" class="btn">Reset Filters</button>
-												</div>
-						
-											</div>
-						
-										</div>
-									</div>
-								</div>
-						
-							</div>
-						
-							</div>
-						</body>
-						
-
-					</div>
-				</div>
-
-			<!-- Main -->
-				<div id="main">
-					<div class="container">
-						<div class="row main-row">
-							<div class="col-4 col-12-medium">
-
-								<section>
-									<h2>Welcome to Minimaxing!</h2>
-									<p>This is <strong>Minimaxing</strong>, a fully responsive HTML5 site template designed by <a href="http://twitter.com/ajlkn">AJ</a> and released for free by <a href="http://html5up.net">HTML5 UP</a>. It features
-									a simple, lightweight design, solid HTML5 and CSS3 code, and full responsive support for desktop, tablet, and small displays.</p>
-									<footer class="controls">
-										<a href="http://html5up.net" class="button">More cool designs ...</a>
-									</footer>
-								</section>
-
-							</div>
-							<div class="col-4 col-6-medium col-12-small">
-
-								<section>
-									<h2>Who are you guys?</h2>
-									<ul class="small-image-list">
-										<li>
-											<a href="#"><img src="images/pic2.jpg" alt="" class="left" /></a>
-											<h4>Jane Anderson</h4>
-											<p>Varius nibh. Suspendisse vitae magna eget et amet mollis justo facilisis amet quis.</p>
-										</li>
-										<li>
-											<a href="#"><img src="images/pic1.jpg" alt="" class="left" /></a>
-											<h4>James Doe</h4>
-											<p>Vitae magna eget odio amet mollis justo facilisis amet quis. Sed sagittis consequat.</p>
-										</li>
-									</ul>
-								</section>
-
-							</div>
-							<div class="col-4 col-6-medium col-12-small">
-
-								<section>
-									<h2>How about some links?</h2>
-									<div>
-										<div class="row">
-											<div class="col-6 col-12-small">
-												<ul class="link-list">
-													<li><a href="#">Sed neque nisi consequat</a></li>
-													<li><a href="#">Dapibus sed mattis blandit</a></li>
-													<li><a href="#">Quis accumsan lorem</a></li>
-													<li><a href="#">Suspendisse varius ipsum</a></li>
-													<li><a href="#">Eget et amet consequat</a></li>
-												</ul>
-											</div>
-											<div class="col-6 col-12-small">
-												<ul class="link-list">
-													<li><a href="#">Quis accumsan lorem</a></li>
-													<li><a href="#">Sed neque nisi consequat</a></li>
-													<li><a href="#">Eget et amet consequat</a></li>
-													<li><a href="#">Dapibus sed mattis blandit</a></li>
-													<li><a href="#">Vitae magna sed dolore</a></li>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</section>
-
-							</div>
-							<div class="col-6 col-12-medium">
-
-								<section>
-									<h2>An assortment of pictures and text</h2>
-									<p>Duis neque nisi, dapibus sed mattis quis, rutrum et accumsan.
-									Suspendisse nibh. Suspendisse vitae magna eget odio amet mollis
-									justo facilisis quis. Sed sagittis mauris amet tellus gravida
-									lorem ipsum dolor sit amet consequat blandit lorem ipsum dolor
-									sit amet consequat sed dolore.</p>
-									<ul class="big-image-list">
-										<li>
-											<a href="#"><img src="images/pic3.jpg" alt="" class="left" /></a>
-											<h3>Magna Gravida Dolore</h3>
-											<p>Varius nibh. Suspendisse vitae magna eget et amet mollis justo
-											facilisis amet quis consectetur in, sollicitudin vitae justo. Cras
-											Maecenas eu arcu purus, phasellus fermentum elit.</p>
-										</li>
-										<li>
-											<a href="#"><img src="images/pic4.jpg" alt="" class="left" /></a>
-											<h3>Magna Gravida Dolore</h3>
-											<p>Varius nibh. Suspendisse vitae magna eget et amet mollis justo
-											facilisis amet quis consectetur in, sollicitudin vitae justo. Cras
-											Maecenas eu arcu purus, phasellus fermentum elit.</p>
-										</li>
-										<li>
-											<a href="#"><img src="images/pic5.jpg" alt="" class="left" /></a>
-											<h3>Magna Gravida Dolore</h3>
-											<p>Varius nibh. Suspendisse vitae magna eget et amet mollis justo
-											facilisis amet quis consectetur in, sollicitudin vitae justo. Cras
-											Maecenas eu arcu purus, phasellus fermentum elit.</p>
-										</li>
-									</ul>
-								</section>
-
-							</div>
-							<div class="col-6 col-12-medium">
-
-								<article class="blog-post">
-									<h2>Just another blog post</h2>
-									<a class="comments" href="#">33 comments</a>
-									<a href="#"><img src="images/pic6.jpg" alt="" class="top blog-post-image" /></a>
-									<h3>Magna Gravida Dolore</h3>
-									<p>Aenean non massa sapien. In hac habitasse platea dictumst.
-									Maecenas sodales purus et nulla sodales aliquam. Aenean ac
-									porttitor metus. In hac habitasse platea dictumst. Phasellus
-									blandit turpis in leo scelerisque mollis. Nulla venenatis
-									ipsum nec est porta rhoncus. Mauris sodales sed pharetra
-									nisi nec consectetur. Cras elit magna, hendrerit nec
-									consectetur in, sollicitudin vitae justo. Cras amet aliquet
-									Aliquam ligula turpis, feugiat id fermentum malesuada,
-									rutrum eget turpis. Mauris sodales sed pharetra nisi nec
-									consectetur. Cras elit magna, hendrerit nec consectetur
-									in sollicitudin vitae.</p>
-									<footer class="controls">
-										<a href="#" class="button">Continue Reading</a>
-									</footer>
-								</article>
-
-							</div>
-						</div>
-					</div>
-				</div>
-
-			<!-- Footer -->
-				<div id="footer-wrapper">
-					<div class="container">
-						<div class="row">
-							<div class="col-8 col-12-medium">
-
-								<section>
-									<h2>How about a truckload of links?</h2>
-									<div>
-										<div class="row">
-											<div class="col-3 col-6-medium col-12-small">
-												<ul class="link-list">
-													<li><a href="#">Sed neque nisi consequat</a></li>
-													<li><a href="#">Dapibus sed mattis blandit</a></li>
-													<li><a href="#">Quis accumsan lorem</a></li>
-													<li><a href="#">Suspendisse varius ipsum</a></li>
-													<li><a href="#">Eget et amet consequat</a></li>
-												</ul>
-											</div>
-											<div class="col-3 col-6-medium col-12-small">
-												<ul class="link-list">
-													<li><a href="#">Quis accumsan lorem</a></li>
-													<li><a href="#">Sed neque nisi consequat</a></li>
-													<li><a href="#">Eget et amet consequat</a></li>
-													<li><a href="#">Dapibus sed mattis blandit</a></li>
-													<li><a href="#">Vitae magna sed dolore</a></li>
-												</ul>
-											</div>
-											<div class="col-3 col-6-medium col-12-small">
-												<ul class="link-list">
-													<li><a href="#">Sed neque nisi consequat</a></li>
-													<li><a href="#">Dapibus sed mattis blandit</a></li>
-													<li><a href="#">Quis accumsan lorem</a></li>
-													<li><a href="#">Suspendisse varius ipsum</a></li>
-													<li><a href="#">Eget et amet consequat</a></li>
-												</ul>
-											</div>
-											<div class="col-3 col-6-medium col-12-small">
-												<ul class="link-list">
-													<li><a href="#">Quis accumsan lorem</a></li>
-													<li><a href="#">Sed neque nisi consequat</a></li>
-													<li><a href="#">Eget et amet consequat</a></li>
-													<li><a href="#">Dapibus sed mattis blandit</a></li>
-													<li><a href="#">Vitae magna sed dolore</a></li>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</section>
-
-							</div>
-							<div class="col-4 col-12-medium">
-
-								<section>
-									<h2>Something of interest</h2>
-									<p>Duis neque nisi, dapibus sed mattis quis, rutrum accumsan sed.
-									Suspendisse eu varius nibh. Suspendisse vitae magna eget odio amet
-									mollis justo facilisis quis. Sed sagittis mauris amet tellus gravida
-									lorem ipsum dolor sit blandit.</p>
-									<footer class="controls">
-										<a href="#" class="button">Oh, please continue ....</a>
-									</footer>
-								</section>
-
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-12">
-
-								<div id="copyright">
-									&copy; Untitled. All rights reserved. | Design: <a href="http://html5up.net">HTML5 UP</a>
-								</div>
-
-							</div>
-						</div>
-					</div>
-				</div>
-
-		</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>					
-
-			<script src="script/configs.js"></script>
-			<script src="script/apps.js"></script> 
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit City of Melbourne</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="hero">
+        <!--set up background video-->
+        <video autoplay loop muted plays-inline class="back-video">
+            <source src="image/website/video.mp4" type="video/mp4">
+        </video>
+         <!--set up logo and nav bar-->
+        <nav>
+            <a href="Index.html">
+                <img src="image/website/logo.png" class="logo">
+            </a>
+            <ul>
+                <li><a href="Index.html">HOME</a></li>
+                <li><a href="map.html">MAP</a></li>
+                <li><a href="Events.html">EVENTS</a></li>
+            </ul>
+        </nav>
+        <!--set up visiting city of melbourne content-->
+        <div class="content">
+            <h1>Visiting <br>
+                City of Melbourne
+            </h1>
+            <a href="map.html">Explore The Map</a>
+            <p>Stay up to date with Melbourne's best hotels, restaurants, landmarks, and shopping malls <br>
+                Explore the map now!
+            </p>
+        </div>
+    </div>
+</body>
 </html>
